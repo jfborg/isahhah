@@ -15,7 +15,7 @@ Personalised home calisthenics, inspired by the Maltese meaning of “isahhah”
 
 ## Project status
 
-Training program and instructor style approved. The demonstration clip is being revised to use shorts. This repository currently contains the training specification; the web application and full exercise-video library are the next implementation stage.
+Training program and instructor style approved. The demonstration clip has been revised to use shorts. This repository currently contains the training specification; the web application and full exercise-video library are the next implementation stage.
 
 ## Deployment direction
 
