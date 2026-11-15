@@ -1,0 +1,303 @@
+{
+  "model": "/media/3d/instructor.glb",
+  "clips": {
+    "squat": {
+      "duration": 6,
+      "view": "standing"
+    },
+    "chairSquat": {
+      "duration": 6,
+      "view": "standing",
+      "prop": "chair"
+    },
+    "shallowSquat": {
+      "duration": 6,
+      "view": "standing"
+    },
+    "pauseSquat": {
+      "duration": 6,
+      "view": "standing"
+    },
+    "slowSquat": {
+      "duration": 6,
+      "view": "standing"
+    },
+    "calf": {
+      "duration": 6,
+      "view": "standing",
+      "prop": "support"
+    },
+    "slowCalf": {
+      "duration": 6,
+      "view": "standing",
+      "prop": "support"
+    },
+    "splitL": {
+      "duration": 6,
+      "view": "standing",
+      "prop": "support"
+    },
+    "splitR": {
+      "duration": 6,
+      "view": "standing",
+      "prop": "support"
+    },
+    "splitSwitch": {
+      "duration": 12,
+      "view": "standing",
+      "prop": "support"
+    },
+    "reverse": {
+      "duration": 12,
+      "view": "standing"
+    },
+    "lateral": {
+      "duration": 12,
+      "view": "standing"
+    },
+    "sideSquat": {
+      "duration": 12,
+      "view": "standing"
+    },
+    "hinge": {
+      "duration": 6,
+      "view": "standing"
+    },
+    "staggerHinge": {
+      "duration": 12,
+      "view": "standing"
+    },
+    "sumoSquat": {
+      "duration": 6,
+      "view": "standing"
+    },
+    "narrowSquat": {
+      "duration": 6,
+      "view": "standing"
+    },
+    "wallSit": {
+      "duration": 6,
+      "view": "standing",
+      "prop": "backWall"
+    },
+    "calfSingle": {
+      "duration": 12,
+      "view": "standing",
+      "prop": "support"
+    },
+    "march": {
+      "duration": 3.2,
+      "view": "standing"
+    },
+    "crossMarch": {
+      "duration": 4,
+      "view": "standing"
+    },
+    "driveMarch": {
+      "duration": 3.4,
+      "view": "standing"
+    },
+    "jack": {
+      "duration": 5,
+      "view": "standing"
+    },
+    "knee": {
+      "duration": 5,
+      "view": "standing"
+    },
+    "sideStep": {
+      "duration": 6,
+      "view": "standing"
+    },
+    "doubleStep": {
+      "duration": 8,
+      "view": "standing"
+    },
+    "punch": {
+      "duration": 4,
+      "view": "standing"
+    },
+    "uppercut": {
+      "duration": 4,
+      "view": "standing"
+    },
+    "heelDig": {
+      "duration": 4.5,
+      "view": "standing"
+    },
+    "heelReach": {
+      "duration": 5,
+      "view": "standing"
+    },
+    "toeTap": {
+      "duration": 4.5,
+      "view": "standing"
+    },
+    "curl": {
+      "duration": 5,
+      "view": "standing"
+    },
+    "forwardMarch": {
+      "duration": 7,
+      "view": "standing"
+    },
+    "easyMarch": {
+      "duration": 4.5,
+      "view": "standing"
+    },
+    "circles": {
+      "duration": 6,
+      "view": "standing"
+    },
+    "ankle": {
+      "duration": 6,
+      "view": "standing"
+    },
+    "reach": {
+      "duration": 6,
+      "view": "standing"
+    },
+    "stretchL": {
+      "duration": 6,
+      "view": "wall",
+      "wallY": -0.49
+    },
+    "stretchR": {
+      "duration": 6,
+      "view": "wall",
+      "wallY": -0.49
+    },
+    "breathe": {
+      "duration": 7,
+      "view": "standing"
+    },
+    "chest": {
+      "duration": 7,
+      "view": "standing"
+    },
+    "standingCrunch": {
+      "duration": 6,
+      "view": "standing"
+    },
+    "sideLegRaise": {
+      "duration": 7,
+      "view": "standing"
+    },
+    "backLegRaise": {
+      "duration": 7,
+      "view": "standing"
+    },
+    "frontKick": {
+      "duration": 6,
+      "view": "standing"
+    },
+    "boxerStep": {
+      "duration": 5,
+      "view": "standing"
+    },
+    "stepReach": {
+      "duration": 6,
+      "view": "standing"
+    },
+    "push": {
+      "duration": 5,
+      "view": "floor"
+    },
+    "fullPush": {
+      "duration": 5,
+      "view": "floor"
+    },
+    "pausePush": {
+      "duration": 6,
+      "view": "floor"
+    },
+    "wallPush": {
+      "duration": 5,
+      "view": "wall"
+    },
+    "bridge": {
+      "duration": 5,
+      "view": "floor"
+    },
+    "bridgeHold": {
+      "duration": 6,
+      "view": "floor"
+    },
+    "bridgeMarch": {
+      "duration": 8,
+      "view": "floor"
+    },
+    "wRaise": {
+      "duration": 5,
+      "view": "floor"
+    },
+    "wHold": {
+      "duration": 6,
+      "view": "floor"
+    },
+    "wSupported": {
+      "duration": 5,
+      "view": "floor"
+    },
+    "angel": {
+      "duration": 8,
+      "view": "floor"
+    },
+    "deadbug": {
+      "duration": 10,
+      "view": "floor"
+    },
+    "heelSlide": {
+      "duration": 8,
+      "view": "floor"
+    },
+    "heelTap": {
+      "duration": 8,
+      "view": "floor"
+    },
+    "sideL": {
+      "duration": 6,
+      "view": "floor"
+    },
+    "sideR": {
+      "duration": 6,
+      "view": "floor"
+    },
+    "sideFullL": {
+      "duration": 6,
+      "view": "floor"
+    },
+    "sideFullR": {
+      "duration": 6,
+      "view": "floor"
+    },
+    "bird": {
+      "duration": 10,
+      "view": "floor"
+    },
+    "birdEasy": {
+      "duration": 12,
+      "view": "floor"
+    },
+    "birdHold": {
+      "duration": 12,
+      "view": "floor"
+    },
+    "plank": {
+      "duration": 6,
+      "view": "floor"
+    },
+    "fullPlank": {
+      "duration": 6,
+      "view": "floor"
+    },
+    "taps": {
+      "duration": 8,
+      "view": "floor"
+    },
+    "weightShift": {
+      "duration": 6,
+      "view": "floor"
+    }
+  }
+}

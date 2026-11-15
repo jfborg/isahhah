@@ -1,0 +1,24 @@
+{
+  "name": "Isahhah \u2014 Build your strength",
+  "short_name": "isahhah",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f2f4ed",
+  "theme_color": "#26372e",
+  "description": "Three weeks of varied home training with reusable 3D movement guides.",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,434 @@
+{
+  "squat": {
+    "frames": 73,
+    "duration": 6,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "chairSquat": {
+    "frames": 73,
+    "duration": 6,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "shallowSquat": {
+    "frames": 73,
+    "duration": 6,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "pauseSquat": {
+    "frames": 73,
+    "duration": 6,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "slowSquat": {
+    "frames": 73,
+    "duration": 6,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "calf": {
+    "frames": 73,
+    "duration": 6,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "slowCalf": {
+    "frames": 73,
+    "duration": 6,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "splitL": {
+    "frames": 73,
+    "duration": 6,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "splitR": {
+    "frames": 73,
+    "duration": 6,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "splitSwitch": {
+    "frames": 145,
+    "duration": 12,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "reverse": {
+    "frames": 145,
+    "duration": 12,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "lateral": {
+    "frames": 145,
+    "duration": 12,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "sideSquat": {
+    "frames": 145,
+    "duration": 12,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "hinge": {
+    "frames": 73,
+    "duration": 6,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "staggerHinge": {
+    "frames": 145,
+    "duration": 12,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "sumoSquat": {
+    "frames": 73,
+    "duration": 6,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "narrowSquat": {
+    "frames": 73,
+    "duration": 6,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "wallSit": {
+    "frames": 73,
+    "duration": 6,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "calfSingle": {
+    "frames": 145,
+    "duration": 12,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "march": {
+    "frames": 39,
+    "duration": 3.2,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "crossMarch": {
+    "frames": 49,
+    "duration": 4,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "driveMarch": {
+    "frames": 42,
+    "duration": 3.4,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "jack": {
+    "frames": 61,
+    "duration": 5,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "knee": {
+    "frames": 61,
+    "duration": 5,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "sideStep": {
+    "frames": 73,
+    "duration": 6,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "doubleStep": {
+    "frames": 97,
+    "duration": 8,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "punch": {
+    "frames": 49,
+    "duration": 4,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "uppercut": {
+    "frames": 49,
+    "duration": 4,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "heelDig": {
+    "frames": 55,
+    "duration": 4.5,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "heelReach": {
+    "frames": 61,
+    "duration": 5,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "toeTap": {
+    "frames": 55,
+    "duration": 4.5,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "curl": {
+    "frames": 61,
+    "duration": 5,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "forwardMarch": {
+    "frames": 85,
+    "duration": 7,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "easyMarch": {
+    "frames": 55,
+    "duration": 4.5,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "circles": {
+    "frames": 73,
+    "duration": 6,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "ankle": {
+    "frames": 73,
+    "duration": 6,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "reach": {
+    "frames": 73,
+    "duration": 6,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "stretchL": {
+    "frames": 73,
+    "duration": 6,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "stretchR": {
+    "frames": 73,
+    "duration": 6,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "breathe": {
+    "frames": 85,
+    "duration": 7,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "chest": {
+    "frames": 85,
+    "duration": 7,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "standingCrunch": {
+    "frames": 73,
+    "duration": 6,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "sideLegRaise": {
+    "frames": 85,
+    "duration": 7,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "backLegRaise": {
+    "frames": 85,
+    "duration": 7,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "frontKick": {
+    "frames": 73,
+    "duration": 6,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "boxerStep": {
+    "frames": 61,
+    "duration": 5,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "stepReach": {
+    "frames": 73,
+    "duration": 6,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "push": {
+    "frames": 61,
+    "duration": 5,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "fullPush": {
+    "frames": 61,
+    "duration": 5,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "pausePush": {
+    "frames": 73,
+    "duration": 6,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "wallPush": {
+    "frames": 61,
+    "duration": 5,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "bridge": {
+    "frames": 61,
+    "duration": 5,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "bridgeHold": {
+    "frames": 73,
+    "duration": 6,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "bridgeMarch": {
+    "frames": 97,
+    "duration": 8,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "wRaise": {
+    "frames": 61,
+    "duration": 5,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "wHold": {
+    "frames": 73,
+    "duration": 6,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "wSupported": {
+    "frames": 61,
+    "duration": 5,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "angel": {
+    "frames": 97,
+    "duration": 8,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "deadbug": {
+    "frames": 121,
+    "duration": 10,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "heelSlide": {
+    "frames": 97,
+    "duration": 8,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "heelTap": {
+    "frames": 97,
+    "duration": 8,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "sideL": {
+    "frames": 73,
+    "duration": 6,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "sideR": {
+    "frames": 73,
+    "duration": 6,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "sideFullL": {
+    "frames": 73,
+    "duration": 6,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "sideFullR": {
+    "frames": 73,
+    "duration": 6,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "bird": {
+    "frames": 121,
+    "duration": 10,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "birdEasy": {
+    "frames": 145,
+    "duration": 12,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "birdHold": {
+    "frames": 145,
+    "duration": 12,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "plank": {
+    "frames": 73,
+    "duration": 6,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "fullPlank": {
+    "frames": 73,
+    "duration": 6,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "taps": {
+    "frames": 97,
+    "duration": 8,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "weightShift": {
+    "frames": 73,
+    "duration": 6,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  }
+}

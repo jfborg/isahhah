@@ -1,0 +1,161 @@
+{
+  "exercise_coverage": 72,
+  "total_recordings": 74,
+  "existing_recordings_decoded": 44,
+  "new_recordings_decoded": 30,
+  "missing": [],
+  "failures": [],
+  "new_audio_stats": {
+    "sumoSquat": {
+      "duration_seconds": 10.85,
+      "rms": 0.1132,
+      "peak": 0.7954
+    },
+    "narrowSquat": {
+      "duration_seconds": 10.375,
+      "rms": 0.1128,
+      "peak": 0.7851
+    },
+    "wallSit": {
+      "duration_seconds": 11.925,
+      "rms": 0.1112,
+      "peak": 0.7934
+    },
+    "calfSingle": {
+      "duration_seconds": 13.175,
+      "rms": 0.1114,
+      "peak": 0.7991
+    },
+    "standingCrunch": {
+      "duration_seconds": 11.975,
+      "rms": 0.1083,
+      "peak": 0.7883
+    },
+    "sideLegRaise": {
+      "duration_seconds": 11.775,
+      "rms": 0.1068,
+      "peak": 0.779
+    },
+    "backLegRaise": {
+      "duration_seconds": 10.675,
+      "rms": 0.1129,
+      "peak": 0.6685
+    },
+    "frontKick": {
+      "duration_seconds": 11.15,
+      "rms": 0.1093,
+      "peak": 0.7983
+    },
+    "boxerStep": {
+      "duration_seconds": 12.625,
+      "rms": 0.1142,
+      "peak": 0.8073
+    },
+    "stepReach": {
+      "duration_seconds": 11.4,
+      "rms": 0.1099,
+      "peak": 0.7915
+    },
+    "crossMarch": {
+      "duration_seconds": 8.3,
+      "rms": 0.1139,
+      "peak": 0.8014
+    },
+    "sideStep": {
+      "duration_seconds": 8.1,
+      "rms": 0.1087,
+      "peak": 0.7963
+    },
+    "doubleStep": {
+      "duration_seconds": 8.625,
+      "rms": 0.1123,
+      "peak": 0.7869
+    },
+    "punch": {
+      "duration_seconds": 9.3,
+      "rms": 0.1165,
+      "peak": 0.7982
+    },
+    "uppercut": {
+      "duration_seconds": 9.825,
+      "rms": 0.1123,
+      "peak": 0.7953
+    },
+    "heelDig": {
+      "duration_seconds": 7.95,
+      "rms": 0.108,
+      "peak": 0.7799
+    },
+    "heelReach": {
+      "duration_seconds": 9.975,
+      "rms": 0.1134,
+      "peak": 0.7977
+    },
+    "toeTap": {
+      "duration_seconds": 7.425,
+      "rms": 0.1114,
+      "peak": 0.7623
+    },
+    "curl": {
+      "duration_seconds": 8.325,
+      "rms": 0.1074,
+      "peak": 0.6934
+    },
+    "forwardMarch": {
+      "duration_seconds": 8.375,
+      "rms": 0.1081,
+      "peak": 0.7955
+    },
+    "easyMarch": {
+      "duration_seconds": 5.975,
+      "rms": 0.1121,
+      "peak": 0.6974
+    },
+    "circles": {
+      "duration_seconds": 8.975,
+      "rms": 0.1148,
+      "peak": 0.7921
+    },
+    "ankle": {
+      "duration_seconds": 8.125,
+      "rms": 0.1194,
+      "peak": 0.7487
+    },
+    "reach": {
+      "duration_seconds": 7.225,
+      "rms": 0.1082,
+      "peak": 0.7055
+    },
+    "stretchL": {
+      "duration_seconds": 10.075,
+      "rms": 0.1148,
+      "peak": 0.7989
+    },
+    "stretchR": {
+      "duration_seconds": 9.75,
+      "rms": 0.115,
+      "peak": 0.7988
+    },
+    "breathe": {
+      "duration_seconds": 9.275,
+      "rms": 0.1142,
+      "peak": 0.7949
+    },
+    "chest": {
+      "duration_seconds": 9.4,
+      "rms": 0.1083,
+      "peak": 0.7141
+    },
+    "rest": {
+      "duration_seconds": 3.4,
+      "rms": 0.111,
+      "peak": 0.7992
+    },
+    "switch": {
+      "duration_seconds": 3.0,
+      "rms": 0.1208,
+      "peak": 0.7975
+    }
+  },
+  "new_paid_calls": 0
+}

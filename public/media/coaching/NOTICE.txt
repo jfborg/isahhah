@@ -1,0 +1,10 @@
+ISAHHAH COACHING AUDIO
+
+Existing recordings were retrieved from previously generated Runway tasks.
+Additional female coaching was produced locally with Kokoro 82M v1.0 (af_heart) using kokoro-js 1.2.1. Model and code are distributed under Apache License 2.0; license included.
+
+Model: https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX
+Original model: https://huggingface.co/hexgrad/Kokoro-82M
+Engine: https://github.com/hexgrad/kokoro
+
+No Apple System Voice recordings are included in this public folder.

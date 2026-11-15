@@ -1,0 +1,250 @@
+[
+  {
+    "id": "squat",
+    "text": "Squat. Keep your whole foot grounded. Sit your hips back and bend your knees in a comfortable range. Breathe out as you stand."
+  },
+  {
+    "id": "chairSquat",
+    "text": "Chair sit-to-stand. Place a sturdy, non-wheeled chair against a wall. Sit down gently, then press through your whole feet to stand."
+  },
+  {
+    "id": "shallowSquat",
+    "text": "Shallow squat. Stand near a wall for balance. Bend your knees and hips a little, then stand tall. Keep the movement comfortable."
+  },
+  {
+    "id": "pauseSquat",
+    "text": "Pause squat. Lower in control. Pause briefly at a comfortable depth, then stand. Keep breathing."
+  },
+  {
+    "id": "slowSquat",
+    "text": "Slow-lowering squat. Take three seconds to lower, then stand smoothly. Keep your whole foot on the floor."
+  },
+  {
+    "id": "push",
+    "text": "Kneeling push-up. Knees on the mat, hands just wider than shoulders. Keep a steady line from head to knees. Lower your chest, then press away."
+  },
+  {
+    "id": "wallPush",
+    "text": "Wall push-up. Hands on a wall at chest height. Keep your body straight as you bend your elbows and bring your chest toward the wall. Press back."
+  },
+  {
+    "id": "fullPush",
+    "text": "Full push-up. Hands just wider than shoulders. Keep your trunk steady from head to heels. Lower with elbows angled back, then press up."
+  },
+  {
+    "id": "pausePush",
+    "text": "Push-up with a pause. Use your comfortable push-up position. Pause briefly near the bottom, then press away. Stop before your form breaks."
+  },
+  {
+    "id": "bridge",
+    "text": "Glute bridge. Lie on your back, knees bent and feet grounded. Squeeze your glutes to lift your hips without arching your back. Lower slowly."
+  },
+  {
+    "id": "bridgeHold",
+    "text": "Glute bridge with hold. Lift your hips using your glutes. Hold briefly with ribs relaxed, then lower gently. Keep your pelvis level."
+  },
+  {
+    "id": "bridgeMarch",
+    "text": "Bridge march. Lift into a low bridge. Keep your pelvis level while lifting one foot a little, then set it down and change sides."
+  },
+  {
+    "id": "wRaise",
+    "text": "Prone W raise. Lie face down, forehead comfortably supported. Bend elbows into a W. Gently lift the arms without shrugging or lifting your head."
+  },
+  {
+    "id": "wHold",
+    "text": "W raise with hold. Face down with arms in a W. Gently lift, pause briefly, then lower. Keep the neck relaxed."
+  },
+  {
+    "id": "wSupported",
+    "text": "Supported shoulder-blade squeeze. Lie face down with arms supported in a W. Gently draw shoulder blades toward each other without lifting your head."
+  },
+  {
+    "id": "angel",
+    "text": "Reverse snow angel. Lie face down. Sweep your arms slowly from near your hips toward overhead, only through comfortable shoulder range. Keep neck neutral."
+  },
+  {
+    "id": "deadbug",
+    "text": "Dead bug. Lie on your back, knees bent above hips. Slowly reach one arm and the opposite leg away. Return and change sides. Keep your lower back steady."
+  },
+  {
+    "id": "heelSlide",
+    "text": "Alternating heel slide. Lie on your back with both feet supported. Slide one heel away, then return and change legs. Keep your trunk still."
+  },
+  {
+    "id": "heelTap",
+    "text": "Supine heel tap. Lie on your back with knees bent above hips. Lower one heel toward the mat, return, then change legs. Avoid arching your back."
+  },
+  {
+    "id": "calf",
+    "text": "Standing calf raise. Hold a wall or sturdy chair lightly. Rise onto your forefeet, then lower slowly. Keep your weight balanced."
+  },
+  {
+    "id": "slowCalf",
+    "text": "Slow calf raise. Rise onto your forefeet, then take three seconds to lower. Hold stable support for balance."
+  },
+  {
+    "id": "splitL",
+    "text": "Supported split squat; left. Left foot forward, right foot back. Hold a wall or a sturdy chair placed against a wall. Bend both knees to lower vertically, then stand."
+  },
+  {
+    "id": "splitR",
+    "text": "Supported split squat; right. Right foot forward, left foot back. Hold a wall or a sturdy chair placed against a wall. Bend both knees to lower vertically, then stand."
+  },
+  {
+    "id": "splitSwitch",
+    "text": "Supported split squat; change halfway. Use a fixed staggered stance with wall or chair support. Lower gently and rise. Switch the front leg halfway through."
+  },
+  {
+    "id": "reverse",
+    "text": "Alternating reverse lunge. Step one foot back and lower comfortably. Push through your front foot to return. Alternate evenly; use support if needed."
+  },
+  {
+    "id": "lateral",
+    "text": "Shallow lateral lunge. Step to one side, bend that knee and send hips back. Return to the centre and change sides. Keep the range comfortable."
+  },
+  {
+    "id": "sideSquat",
+    "text": "Side step with shallow squat. Take a small side step, bend knees gently, then stand and move back. Change direction evenly."
+  },
+  {
+    "id": "hinge",
+    "text": "Standing hip hinge. Soften your knees. Send hips backwards while keeping a long neutral spine. Squeeze your glutes to stand tall."
+  },
+  {
+    "id": "staggerHinge",
+    "text": "Staggered hip hinge; change halfway. Place one foot a little behind the other. Hinge your hips back with a long spine. Switch the front foot halfway."
+  },
+  {
+    "id": "sideL",
+    "text": "Side plank; left. Left elbow under shoulder, knees bent. Lift hips gently and keep a steady line from shoulders to knees. Breathe."
+  },
+  {
+    "id": "sideR",
+    "text": "Side plank; right. Right elbow under shoulder, knees bent. Lift hips gently and keep a steady line from shoulders to knees. Breathe."
+  },
+  {
+    "id": "sideFullL",
+    "text": "Straight-leg side plank; left. Left elbow under shoulder, legs extended. Lift hips and hold a steady line. Keep breathing."
+  },
+  {
+    "id": "sideFullR",
+    "text": "Straight-leg side plank; right. Right elbow under shoulder, legs extended. Lift hips and hold a steady line. Keep breathing."
+  },
+  {
+    "id": "bird",
+    "text": "Bird dog. On hands and knees, reach opposite arm and leg away. Keep your hips level. Return slowly and change sides."
+  },
+  {
+    "id": "birdEasy",
+    "text": "Bird dog; one limb at a time. On hands and knees, reach one arm or one leg away at a time. Keep your hips still. Change sides evenly."
+  },
+  {
+    "id": "birdHold",
+    "text": "Bird dog with hold. Reach opposite arm and leg away. Hold briefly without rotating your hips, then return and switch sides."
+  },
+  {
+    "id": "plank",
+    "text": "Kneeling forearm plank. Elbows under shoulders, knees on the mat. Hold your trunk steady and breathe normally. Rest before form breaks."
+  },
+  {
+    "id": "fullPlank",
+    "text": "Forearm plank. Elbows under shoulders, legs extended. Keep a steady line from head to heels without sagging. Breathe."
+  },
+  {
+    "id": "taps",
+    "text": "Kneeling shoulder tap. Hands under shoulders, knees on the mat. Lift one hand to the opposite shoulder, replace it, then alternate without rocking."
+  },
+  {
+    "id": "weightShift",
+    "text": "Kneeling weight shift. Hands and knees on the mat. Gently shift weight from one hand to the other while both hands stay down. Keep your trunk still."
+  },
+  {
+    "id": "march",
+    "text": "Brisk march. March on the spot with relaxed shoulders and comfortable arm swing. Keep a pace where you can still speak."
+  },
+  {
+    "id": "crossMarch",
+    "text": "Opposite-hand knee march. March with each hand moving toward the opposite knee. Stay tall and move in a comfortable rhythm."
+  },
+  {
+    "id": "driveMarch",
+    "text": "March with arm drive. March steadily and swing opposite arms with purpose. Keep your shoulders relaxed and steps controlled."
+  },
+  {
+    "id": "jack",
+    "text": "Low-impact step jack. Step one foot out as your arms rise comfortably. Return and alternate feet. Keep one foot on the floor."
+  },
+  {
+    "id": "knee",
+    "text": "Alternating knee drive. Stand tall and lift one knee comfortably. Lower and change legs. Use a wall or chair for balance if needed."
+  },
+  {
+    "id": "sideStep",
+    "text": "Side step with reach. Step sideways, bring the other foot in and reach comfortably. Change direction. Keep steps soft."
+  },
+  {
+    "id": "doubleStep",
+    "text": "Double side step. Take two small steps to one side, then two back. Stay upright and add an easy arm reach if comfortable."
+  },
+  {
+    "id": "punch",
+    "text": "Straight-punch shadow boxing. Use light straight punches with relaxed shoulders. Keep elbows soft at the end of each punch. No weights."
+  },
+  {
+    "id": "uppercut",
+    "text": "Light uppercut shadow boxing. With elbows bent, make small upward punches in front of you. Keep shoulders relaxed and avoid forceful twisting."
+  },
+  {
+    "id": "heelDig",
+    "text": "Heel dig with arm swing. Place one heel lightly in front, bring it back, then alternate. Add a relaxed arm swing."
+  },
+  {
+    "id": "heelReach",
+    "text": "Heel dig with reach. Alternate heel digs in front as your arms reach comfortably upward. Keep shoulders relaxed and arms below painful range."
+  },
+  {
+    "id": "toeTap",
+    "text": "Side-to-side toe tap. Tap one toe lightly to the side, bring it back, then alternate. Keep your weight centred."
+  },
+  {
+    "id": "curl",
+    "text": "Standing hamstring curl. Bend one knee to bring your heel back toward your buttock. Lower and alternate; keep knees near each other."
+  },
+  {
+    "id": "forwardMarch",
+    "text": "Forward-and-back march. Take small marching steps forward and back in clear space. Stay balanced and face the same direction."
+  },
+  {
+    "id": "easyMarch",
+    "text": "Easy march. March gently on the spot. Relax your shoulders and let your breathing settle."
+  },
+  {
+    "id": "circles",
+    "text": "Shoulder circles and arm swings. Roll your shoulders gently and swing your arms through a comfortable range. Avoid forcing any movement."
+  },
+  {
+    "id": "ankle",
+    "text": "Ankle rocks. Hold stable support. Gently shift weight from heels toward forefeet and back, keeping the movement small."
+  },
+  {
+    "id": "reach",
+    "text": "Gentle arm reaches. Reach one arm, then the other, comfortably upward and forward. Keep your ribs relaxed."
+  },
+  {
+    "id": "stretchL",
+    "text": "Supported calf stretch; left. Left leg behind with heel grounded, front knee slightly bent. Hold a wall. Feel a mild stretch; never force it."
+  },
+  {
+    "id": "stretchR",
+    "text": "Supported calf stretch; right. Right leg behind with heel grounded, front knee slightly bent. Hold a wall. Feel a mild stretch; never force it."
+  },
+  {
+    "id": "breathe",
+    "text": "Standing breathing and shoulder release. Stand comfortably. Breathe slowly and let your shoulders soften. Make small gentle shoulder movements."
+  },
+  {
+    "id": "chest",
+    "text": "Comfortable chest opening. Stand tall with arms low. Gently draw shoulders back to open the chest without arching. Breathe naturally."
+  }
+]

@@ -1,0 +1,466 @@
+{
+  "new_paid_generation_calls": 0,
+  "new_Runway_credits_used": 0,
+  "recordings": {
+    "squat": {
+      "path": "/media/coaching/squat.mp3",
+      "method": "existing Runway recording",
+      "taskId": "c0d74e7a-7ecb-446f-805c-39a32f07c7ea"
+    },
+    "chairSquat": {
+      "path": "/media/coaching/chairSquat.mp3",
+      "method": "existing Runway recording",
+      "taskId": "2a63d79e-3ba7-4291-b823-135f3a9ca4a1"
+    },
+    "shallowSquat": {
+      "path": "/media/coaching/shallowSquat.mp3",
+      "method": "existing Runway recording",
+      "taskId": "4db131bd-b3da-472d-9644-34bb773aeb7b"
+    },
+    "pauseSquat": {
+      "path": "/media/coaching/pauseSquat.mp3",
+      "method": "existing Runway recording",
+      "taskId": "9e35b29b-da56-4766-890d-d5b5d2d633e6"
+    },
+    "slowSquat": {
+      "path": "/media/coaching/slowSquat.mp3",
+      "method": "existing Runway recording",
+      "taskId": "d4f487c6-c870-443d-84ef-e2ec8b98ecaf"
+    },
+    "push": {
+      "path": "/media/coaching/push.mp3",
+      "method": "existing Runway recording",
+      "taskId": "9cbbe987-255b-4716-bf14-e2277c61be1b"
+    },
+    "wallPush": {
+      "path": "/media/coaching/wallPush.mp3",
+      "method": "existing Runway recording",
+      "taskId": "aed778d5-227b-4acf-86db-6477f28f31df"
+    },
+    "fullPush": {
+      "path": "/media/coaching/fullPush.mp3",
+      "method": "existing Runway recording",
+      "taskId": "3b3f4b55-3b7b-4dd4-90b2-433ee09a2520"
+    },
+    "pausePush": {
+      "path": "/media/coaching/pausePush.mp3",
+      "method": "existing Runway recording",
+      "taskId": "1c7db9f7-1a21-41b1-baee-57e01f73fe02"
+    },
+    "bridge": {
+      "path": "/media/coaching/bridge.mp3",
+      "method": "existing Runway recording",
+      "taskId": "a0d071eb-6d1e-473d-ba84-f5a36ee22e42"
+    },
+    "bridgeHold": {
+      "path": "/media/coaching/bridgeHold.mp3",
+      "method": "existing Runway recording",
+      "taskId": "1c1c5890-f618-41a0-b759-7edddf08ada0"
+    },
+    "bridgeMarch": {
+      "path": "/media/coaching/bridgeMarch.mp3",
+      "method": "existing Runway recording",
+      "taskId": "43ee0275-abe4-4916-848c-4e2f7106b3dd"
+    },
+    "wRaise": {
+      "path": "/media/coaching/wRaise.mp3",
+      "method": "existing Runway recording",
+      "taskId": "88eada1f-3cea-4eb0-9641-c4f3045a6376"
+    },
+    "wHold": {
+      "path": "/media/coaching/wHold.mp3",
+      "method": "existing Runway recording",
+      "taskId": "4c82461e-3070-4329-be21-e83c118efa0b"
+    },
+    "wSupported": {
+      "path": "/media/coaching/wSupported.mp3",
+      "method": "existing Runway recording",
+      "taskId": "5461da6d-0c0a-467f-8257-1476d043f537"
+    },
+    "angel": {
+      "path": "/media/coaching/angel.mp3",
+      "method": "existing Runway recording",
+      "taskId": "229b3e0c-8834-4c4a-89c1-7b311a8e7d4e"
+    },
+    "deadbug": {
+      "path": "/media/coaching/deadbug.mp3",
+      "method": "existing Runway recording",
+      "taskId": "0ff15924-3e13-4c8e-b767-d58e6aff0bcb"
+    },
+    "heelSlide": {
+      "path": "/media/coaching/heelSlide.mp3",
+      "method": "existing Runway recording",
+      "taskId": "4e66af3d-9824-4dfd-933b-949f7222cc21"
+    },
+    "heelTap": {
+      "path": "/media/coaching/heelTap.mp3",
+      "method": "existing Runway recording",
+      "taskId": "2b58cd38-f0c9-42c3-9bff-f8a8c9d4ddc1"
+    },
+    "calf": {
+      "path": "/media/coaching/calf.mp3",
+      "method": "existing Runway recording",
+      "taskId": "ca997478-b2fa-4076-8f36-82d99c65f7bc"
+    },
+    "slowCalf": {
+      "path": "/media/coaching/slowCalf.mp3",
+      "method": "existing Runway recording",
+      "taskId": "87dd8f12-7291-4597-84a7-9969a752e9b3"
+    },
+    "splitL": {
+      "path": "/media/coaching/splitL.mp3",
+      "method": "existing Runway recording",
+      "taskId": "f78b9768-b710-4f7c-b769-87daa81e3d4b"
+    },
+    "splitR": {
+      "path": "/media/coaching/splitR.mp3",
+      "method": "existing Runway recording",
+      "taskId": "046c110d-8124-4ff0-9a37-4ea5330d4793"
+    },
+    "splitSwitch": {
+      "path": "/media/coaching/splitSwitch.mp3",
+      "method": "existing Runway recording",
+      "taskId": "47ba6185-ab0b-41f4-b439-dd86c611913b"
+    },
+    "reverse": {
+      "path": "/media/coaching/reverse.mp3",
+      "method": "existing Runway recording",
+      "taskId": "f809ea64-2d49-474d-b876-9cec26e082dd"
+    },
+    "lateral": {
+      "path": "/media/coaching/lateral.mp3",
+      "method": "existing Runway recording",
+      "taskId": "b3b45ef3-9c11-4807-b663-1a3eec12d7d3"
+    },
+    "sideSquat": {
+      "path": "/media/coaching/sideSquat.mp3",
+      "method": "existing Runway recording",
+      "taskId": "698573d4-86ce-41e9-9ddb-9f05cb58f364"
+    },
+    "hinge": {
+      "path": "/media/coaching/hinge.mp3",
+      "method": "existing Runway recording",
+      "taskId": "ff2f0ac3-68a3-475a-ac9d-2f06470ba703"
+    },
+    "staggerHinge": {
+      "path": "/media/coaching/staggerHinge.mp3",
+      "method": "existing Runway recording",
+      "taskId": "b6a64fb2-7143-47a6-85bd-d6d421e055ea"
+    },
+    "sideL": {
+      "path": "/media/coaching/sideL.mp3",
+      "method": "existing Runway recording",
+      "taskId": "6800dc39-cd0f-4579-89e8-cceed0ce62a1"
+    },
+    "sideR": {
+      "path": "/media/coaching/sideR.mp3",
+      "method": "existing Runway recording",
+      "taskId": "fcb68d64-7f9e-4bc7-b6d8-d4dbd8223e93"
+    },
+    "sideFullL": {
+      "path": "/media/coaching/sideFullL.mp3",
+      "method": "existing Runway recording",
+      "taskId": "d23d21f0-7081-4e71-87e1-cef469a29447"
+    },
+    "sideFullR": {
+      "path": "/media/coaching/sideFullR.mp3",
+      "method": "existing Runway recording",
+      "taskId": "06ff9c54-ce7b-47cb-b7ea-29b4c734e235"
+    },
+    "bird": {
+      "path": "/media/coaching/bird.mp3",
+      "method": "existing Runway recording",
+      "taskId": "8c2ed472-a040-419c-8c32-85571f5e98f6"
+    },
+    "birdEasy": {
+      "path": "/media/coaching/birdEasy.mp3",
+      "method": "existing Runway recording",
+      "taskId": "e69e13bc-086c-4ee8-b424-f3d9ec015126"
+    },
+    "birdHold": {
+      "path": "/media/coaching/birdHold.mp3",
+      "method": "existing Runway recording",
+      "taskId": "8a4347a0-a0e7-458a-8569-68ddb3834187"
+    },
+    "plank": {
+      "path": "/media/coaching/plank.mp3",
+      "method": "existing Runway recording",
+      "taskId": "669cc168-29f3-4e2a-b90e-9b2c09b67b26"
+    },
+    "fullPlank": {
+      "path": "/media/coaching/fullPlank.mp3",
+      "method": "existing Runway recording",
+      "taskId": "981820bd-0183-4907-9284-c4e2bb4e2856"
+    },
+    "taps": {
+      "path": "/media/coaching/taps.mp3",
+      "method": "existing Runway recording",
+      "taskId": "1b21fd93-5e58-4512-b37d-50f5ada219cc"
+    },
+    "weightShift": {
+      "path": "/media/coaching/weightShift.mp3",
+      "method": "existing Runway recording",
+      "taskId": "89b80337-e965-48b8-b417-9d620fbefcb7"
+    },
+    "march": {
+      "path": "/media/coaching/march.mp3",
+      "method": "existing Runway recording",
+      "taskId": "8b9e600f-4f89-47ad-b28d-6637b0bd3d97"
+    },
+    "driveMarch": {
+      "path": "/media/coaching/driveMarch.mp3",
+      "method": "existing Runway recording",
+      "taskId": "c2985a0b-fba0-402b-9f6d-868a7e3a4b3f"
+    },
+    "jack": {
+      "path": "/media/coaching/jack.mp3",
+      "method": "existing Runway recording",
+      "taskId": "1da83721-5379-4378-8342-fee3f2b30b5b"
+    },
+    "knee": {
+      "path": "/media/coaching/knee.mp3",
+      "method": "existing Runway recording",
+      "taskId": "c591fb75-5000-414c-a21b-47b8f1e6cab9"
+    },
+    "sumoSquat": {
+      "path": "/media/coaching/sumoSquat.mp3",
+      "method": "local Kokoro female voice af_heart",
+      "model": "onnx-community/Kokoro-82M-v1.0-ONNX",
+      "license": "Apache-2.0",
+      "text": "Wide-stance squat. Use a comfortably wider stance with toes turned slightly out. Bend knees in line with toes, keep whole feet grounded, and stand smoothly.",
+      "new_credits": 0
+    },
+    "narrowSquat": {
+      "path": "/media/coaching/narrowSquat.mp3",
+      "method": "local Kokoro female voice af_heart",
+      "model": "onnx-community/Kokoro-82M-v1.0-ONNX",
+      "license": "Apache-2.0",
+      "text": "Close-stance squat. Bring feet a little closer than your usual stance. Lower only through a comfortable range, keep heels grounded and stand with control.",
+      "new_credits": 0
+    },
+    "wallSit": {
+      "path": "/media/coaching/wallSit.mp3",
+      "method": "local Kokoro female voice af_heart",
+      "model": "onnx-community/Kokoro-82M-v1.0-ONNX",
+      "license": "Apache-2.0",
+      "text": "Shallow wall sit. Rest your back against a stable wall. Walk feet forward a little and bend knees to a comfortable shallow angle. Breathe throughout; stand to rest before form fades.",
+      "new_credits": 0
+    },
+    "calfSingle": {
+      "path": "/media/coaching/calfSingle.mp3",
+      "method": "local Kokoro female voice af_heart",
+      "model": "onnx-community/Kokoro-82M-v1.0-ONNX",
+      "license": "Apache-2.0",
+      "text": "Supported single-leg calf raise. Hold a stable wall. Lift one foot a little and rise gently onto the other forefoot. Lower slowly. Change legs halfway; take support and rest whenever needed.",
+      "new_credits": 0
+    },
+    "standingCrunch": {
+      "path": "/media/coaching/standingCrunch.mp3",
+      "method": "local Kokoro female voice af_heart",
+      "model": "onnx-community/Kokoro-82M-v1.0-ONNX",
+      "license": "Apache-2.0",
+      "text": "Standing cross-body knee lift. Lift one knee and bring the opposite elbow gently toward it. Keep the range small, lower with control and alternate. Avoid pulling on your neck.",
+      "new_credits": 0
+    },
+    "sideLegRaise": {
+      "path": "/media/coaching/sideLegRaise.mp3",
+      "method": "local Kokoro female voice af_heart",
+      "model": "onnx-community/Kokoro-82M-v1.0-ONNX",
+      "license": "Apache-2.0",
+      "text": "Standing side leg raise. Stand tall near a wall for balance. Lift one leg a little sideways without leaning, lower slowly and alternate. Keep toes facing forward.",
+      "new_credits": 0
+    },
+    "backLegRaise": {
+      "path": "/media/coaching/backLegRaise.mp3",
+      "method": "local Kokoro female voice af_heart",
+      "model": "onnx-community/Kokoro-82M-v1.0-ONNX",
+      "license": "Apache-2.0",
+      "text": "Standing hip extension. Stand tall near stable support. Move one leg a little behind you without arching your back, return and alternate. Keep the movement small.",
+      "new_credits": 0
+    },
+    "frontKick": {
+      "path": "/media/coaching/frontKick.mp3",
+      "method": "local Kokoro female voice af_heart",
+      "model": "onnx-community/Kokoro-82M-v1.0-ONNX",
+      "license": "Apache-2.0",
+      "text": "Low controlled front kick. Lift one knee a little, extend the lower leg forward without locking the knee, then lower and change sides. Keep kicks low and unhurried.",
+      "new_credits": 0
+    },
+    "boxerStep": {
+      "path": "/media/coaching/boxerStep.mp3",
+      "method": "local Kokoro female voice af_heart",
+      "model": "onnx-community/Kokoro-82M-v1.0-ONNX",
+      "license": "Apache-2.0",
+      "text": "Boxer weight shift. Keep both feet grounded and knees soft. Shift your weight gently side to side while adding relaxed alternating punches. Keep elbows soft and use no weights.",
+      "new_credits": 0
+    },
+    "stepReach": {
+      "path": "/media/coaching/stepReach.mp3",
+      "method": "local Kokoro female voice af_heart",
+      "model": "onnx-community/Kokoro-82M-v1.0-ONNX",
+      "license": "Apache-2.0",
+      "text": "Diagonal step and reach. Take a small step diagonally forward with a comfortable opposite-arm reach. Return to the centre and change sides. Keep one foot grounded.",
+      "new_credits": 0
+    },
+    "crossMarch": {
+      "path": "/media/coaching/crossMarch.mp3",
+      "method": "local Kokoro female voice af_heart",
+      "model": "onnx-community/Kokoro-82M-v1.0-ONNX",
+      "license": "Apache-2.0",
+      "text": "Opposite-hand knee march. March with each hand moving toward the opposite knee. Stay tall and move in a comfortable rhythm.",
+      "new_credits": 0
+    },
+    "sideStep": {
+      "path": "/media/coaching/sideStep.mp3",
+      "method": "local Kokoro female voice af_heart",
+      "model": "onnx-community/Kokoro-82M-v1.0-ONNX",
+      "license": "Apache-2.0",
+      "text": "Side step with reach. Step sideways, bring the other foot in and reach comfortably. Change direction. Keep steps soft.",
+      "new_credits": 0
+    },
+    "doubleStep": {
+      "path": "/media/coaching/doubleStep.mp3",
+      "method": "local Kokoro female voice af_heart",
+      "model": "onnx-community/Kokoro-82M-v1.0-ONNX",
+      "license": "Apache-2.0",
+      "text": "Double side step. Take two small steps to one side, then two back. Stay upright and add an easy arm reach if comfortable.",
+      "new_credits": 0
+    },
+    "punch": {
+      "path": "/media/coaching/punch.mp3",
+      "method": "local Kokoro female voice af_heart",
+      "model": "onnx-community/Kokoro-82M-v1.0-ONNX",
+      "license": "Apache-2.0",
+      "text": "Straight-punch shadow boxing. Use light straight punches with relaxed shoulders. Keep elbows soft at the end of each punch. No weights.",
+      "new_credits": 0
+    },
+    "uppercut": {
+      "path": "/media/coaching/uppercut.mp3",
+      "method": "local Kokoro female voice af_heart",
+      "model": "onnx-community/Kokoro-82M-v1.0-ONNX",
+      "license": "Apache-2.0",
+      "text": "Light uppercut shadow boxing. With elbows bent, make small upward punches in front of you. Keep shoulders relaxed and avoid forceful twisting.",
+      "new_credits": 0
+    },
+    "heelDig": {
+      "path": "/media/coaching/heelDig.mp3",
+      "method": "local Kokoro female voice af_heart",
+      "model": "onnx-community/Kokoro-82M-v1.0-ONNX",
+      "license": "Apache-2.0",
+      "text": "Heel dig with arm swing. Place one heel lightly in front, bring it back, then alternate. Add a relaxed arm swing.",
+      "new_credits": 0
+    },
+    "heelReach": {
+      "path": "/media/coaching/heelReach.mp3",
+      "method": "local Kokoro female voice af_heart",
+      "model": "onnx-community/Kokoro-82M-v1.0-ONNX",
+      "license": "Apache-2.0",
+      "text": "Heel dig with reach. Alternate heel digs in front as your arms reach comfortably upward. Keep shoulders relaxed and arms below painful range.",
+      "new_credits": 0
+    },
+    "toeTap": {
+      "path": "/media/coaching/toeTap.mp3",
+      "method": "local Kokoro female voice af_heart",
+      "model": "onnx-community/Kokoro-82M-v1.0-ONNX",
+      "license": "Apache-2.0",
+      "text": "Side-to-side toe tap. Tap one toe lightly to the side, bring it back, then alternate. Keep your weight centred.",
+      "new_credits": 0
+    },
+    "curl": {
+      "path": "/media/coaching/curl.mp3",
+      "method": "local Kokoro female voice af_heart",
+      "model": "onnx-community/Kokoro-82M-v1.0-ONNX",
+      "license": "Apache-2.0",
+      "text": "Standing hamstring curl. Bend one knee to bring your heel back toward your buttock. Lower and alternate; keep knees near each other.",
+      "new_credits": 0
+    },
+    "forwardMarch": {
+      "path": "/media/coaching/forwardMarch.mp3",
+      "method": "local Kokoro female voice af_heart",
+      "model": "onnx-community/Kokoro-82M-v1.0-ONNX",
+      "license": "Apache-2.0",
+      "text": "Forward-and-back march. Take small marching steps forward and back in clear space. Stay balanced and face the same direction.",
+      "new_credits": 0
+    },
+    "easyMarch": {
+      "path": "/media/coaching/easyMarch.mp3",
+      "method": "local Kokoro female voice af_heart",
+      "model": "onnx-community/Kokoro-82M-v1.0-ONNX",
+      "license": "Apache-2.0",
+      "text": "Easy march. March gently on the spot. Relax your shoulders and let your breathing settle.",
+      "new_credits": 0
+    },
+    "circles": {
+      "path": "/media/coaching/circles.mp3",
+      "method": "local Kokoro female voice af_heart",
+      "model": "onnx-community/Kokoro-82M-v1.0-ONNX",
+      "license": "Apache-2.0",
+      "text": "Shoulder circles and arm swings. Roll your shoulders gently and swing your arms through a comfortable range. Avoid forcing any movement.",
+      "new_credits": 0
+    },
+    "ankle": {
+      "path": "/media/coaching/ankle.mp3",
+      "method": "local Kokoro female voice af_heart",
+      "model": "onnx-community/Kokoro-82M-v1.0-ONNX",
+      "license": "Apache-2.0",
+      "text": "Ankle rocks. Hold stable support. Gently shift weight from heels toward forefeet and back, keeping the movement small.",
+      "new_credits": 0
+    },
+    "reach": {
+      "path": "/media/coaching/reach.mp3",
+      "method": "local Kokoro female voice af_heart",
+      "model": "onnx-community/Kokoro-82M-v1.0-ONNX",
+      "license": "Apache-2.0",
+      "text": "Gentle arm reaches. Reach one arm, then the other, comfortably upward and forward. Keep your ribs relaxed.",
+      "new_credits": 0
+    },
+    "stretchL": {
+      "path": "/media/coaching/stretchL.mp3",
+      "method": "local Kokoro female voice af_heart",
+      "model": "onnx-community/Kokoro-82M-v1.0-ONNX",
+      "license": "Apache-2.0",
+      "text": "Supported calf stretch \u00b7 left. Left leg behind with heel grounded, front knee slightly bent. Hold a wall. Feel a mild stretch; never force it.",
+      "new_credits": 0
+    },
+    "stretchR": {
+      "path": "/media/coaching/stretchR.mp3",
+      "method": "local Kokoro female voice af_heart",
+      "model": "onnx-community/Kokoro-82M-v1.0-ONNX",
+      "license": "Apache-2.0",
+      "text": "Supported calf stretch \u00b7 right. Right leg behind with heel grounded, front knee slightly bent. Hold a wall. Feel a mild stretch; never force it.",
+      "new_credits": 0
+    },
+    "breathe": {
+      "path": "/media/coaching/breathe.mp3",
+      "method": "local Kokoro female voice af_heart",
+      "model": "onnx-community/Kokoro-82M-v1.0-ONNX",
+      "license": "Apache-2.0",
+      "text": "Standing breathing and shoulder release. Stand comfortably. Breathe slowly and let your shoulders soften. Make small gentle shoulder movements.",
+      "new_credits": 0
+    },
+    "chest": {
+      "path": "/media/coaching/chest.mp3",
+      "method": "local Kokoro female voice af_heart",
+      "model": "onnx-community/Kokoro-82M-v1.0-ONNX",
+      "license": "Apache-2.0",
+      "text": "Comfortable chest opening. Stand tall with arms low. Gently draw shoulders back to open the chest without arching. Breathe naturally.",
+      "new_credits": 0
+    },
+    "rest": {
+      "path": "/media/coaching/rest.mp3",
+      "method": "local Kokoro female voice af_heart",
+      "model": "onnx-community/Kokoro-82M-v1.0-ONNX",
+      "license": "Apache-2.0",
+      "text": "Rest. Take a breath. Rest as long as you need.",
+      "new_credits": 0
+    },
+    "switch": {
+      "path": "/media/coaching/switch.mp3",
+      "method": "local Kokoro female voice af_heart",
+      "model": "onnx-community/Kokoro-82M-v1.0-ONNX",
+      "license": "Apache-2.0",
+      "text": "Change sides. Change your front leg now.",
+      "new_credits": 0
+    }
+  }
+}

@@ -1,0 +1,301 @@
+{
+  "videos": {
+    "squat": "/media/squat.mp4"
+  },
+  "audio": {
+    "squat": "/media/coaching/squat.mp3",
+    "chairSquat": "/media/coaching/chairSquat.mp3",
+    "shallowSquat": "/media/coaching/shallowSquat.mp3",
+    "pauseSquat": "/media/coaching/pauseSquat.mp3",
+    "slowSquat": "/media/coaching/slowSquat.mp3",
+    "push": "/media/coaching/push.mp3",
+    "wallPush": "/media/coaching/wallPush.mp3",
+    "fullPush": "/media/coaching/fullPush.mp3",
+    "pausePush": "/media/coaching/pausePush.mp3",
+    "bridge": "/media/coaching/bridge.mp3",
+    "bridgeHold": "/media/coaching/bridgeHold.mp3",
+    "bridgeMarch": "/media/coaching/bridgeMarch.mp3",
+    "wRaise": "/media/coaching/wRaise.mp3",
+    "wHold": "/media/coaching/wHold.mp3",
+    "wSupported": "/media/coaching/wSupported.mp3",
+    "angel": "/media/coaching/angel.mp3",
+    "deadbug": "/media/coaching/deadbug.mp3",
+    "heelSlide": "/media/coaching/heelSlide.mp3",
+    "heelTap": "/media/coaching/heelTap.mp3",
+    "calf": "/media/coaching/calf.mp3",
+    "slowCalf": "/media/coaching/slowCalf.mp3",
+    "splitL": "/media/coaching/splitL.mp3",
+    "splitR": "/media/coaching/splitR.mp3",
+    "splitSwitch": "/media/coaching/splitSwitch.mp3",
+    "reverse": "/media/coaching/reverse.mp3",
+    "lateral": "/media/coaching/lateral.mp3",
+    "sideSquat": "/media/coaching/sideSquat.mp3",
+    "hinge": "/media/coaching/hinge.mp3",
+    "staggerHinge": "/media/coaching/staggerHinge.mp3",
+    "sideL": "/media/coaching/sideL.mp3",
+    "sideR": "/media/coaching/sideR.mp3",
+    "sideFullL": "/media/coaching/sideFullL.mp3",
+    "sideFullR": "/media/coaching/sideFullR.mp3",
+    "bird": "/media/coaching/bird.mp3",
+    "birdEasy": "/media/coaching/birdEasy.mp3",
+    "birdHold": "/media/coaching/birdHold.mp3",
+    "plank": "/media/coaching/plank.mp3",
+    "fullPlank": "/media/coaching/fullPlank.mp3",
+    "taps": "/media/coaching/taps.mp3",
+    "weightShift": "/media/coaching/weightShift.mp3",
+    "march": "/media/coaching/march.mp3",
+    "driveMarch": "/media/coaching/driveMarch.mp3",
+    "jack": "/media/coaching/jack.mp3",
+    "knee": "/media/coaching/knee.mp3",
+    "sumoSquat": "/media/coaching/sumoSquat.mp3",
+    "narrowSquat": "/media/coaching/narrowSquat.mp3",
+    "wallSit": "/media/coaching/wallSit.mp3",
+    "calfSingle": "/media/coaching/calfSingle.mp3",
+    "standingCrunch": "/media/coaching/standingCrunch.mp3",
+    "sideLegRaise": "/media/coaching/sideLegRaise.mp3",
+    "backLegRaise": "/media/coaching/backLegRaise.mp3",
+    "frontKick": "/media/coaching/frontKick.mp3",
+    "boxerStep": "/media/coaching/boxerStep.mp3",
+    "stepReach": "/media/coaching/stepReach.mp3",
+    "crossMarch": "/media/coaching/crossMarch.mp3",
+    "sideStep": "/media/coaching/sideStep.mp3",
+    "doubleStep": "/media/coaching/doubleStep.mp3",
+    "punch": "/media/coaching/punch.mp3",
+    "uppercut": "/media/coaching/uppercut.mp3",
+    "heelDig": "/media/coaching/heelDig.mp3",
+    "heelReach": "/media/coaching/heelReach.mp3",
+    "toeTap": "/media/coaching/toeTap.mp3",
+    "curl": "/media/coaching/curl.mp3",
+    "forwardMarch": "/media/coaching/forwardMarch.mp3",
+    "easyMarch": "/media/coaching/easyMarch.mp3",
+    "circles": "/media/coaching/circles.mp3",
+    "ankle": "/media/coaching/ankle.mp3",
+    "reach": "/media/coaching/reach.mp3",
+    "stretchL": "/media/coaching/stretchL.mp3",
+    "stretchR": "/media/coaching/stretchR.mp3",
+    "breathe": "/media/coaching/breathe.mp3",
+    "chest": "/media/coaching/chest.mp3",
+    "rest": "/media/coaching/rest.mp3",
+    "switch": "/media/coaching/switch.mp3"
+  },
+  "music": "/media/music.mp3",
+  "welcome": "/media/welcome.mp3",
+  "animations": {
+    "squat": {
+      "clip": "squat"
+    },
+    "chairSquat": {
+      "clip": "chairSquat"
+    },
+    "shallowSquat": {
+      "clip": "shallowSquat"
+    },
+    "pauseSquat": {
+      "clip": "pauseSquat"
+    },
+    "slowSquat": {
+      "clip": "slowSquat"
+    },
+    "calf": {
+      "clip": "calf"
+    },
+    "slowCalf": {
+      "clip": "slowCalf"
+    },
+    "splitL": {
+      "clip": "splitL"
+    },
+    "splitR": {
+      "clip": "splitR"
+    },
+    "splitSwitch": {
+      "clip": "splitSwitch"
+    },
+    "reverse": {
+      "clip": "reverse"
+    },
+    "lateral": {
+      "clip": "lateral"
+    },
+    "sideSquat": {
+      "clip": "sideSquat"
+    },
+    "hinge": {
+      "clip": "hinge"
+    },
+    "staggerHinge": {
+      "clip": "staggerHinge"
+    },
+    "sumoSquat": {
+      "clip": "sumoSquat"
+    },
+    "narrowSquat": {
+      "clip": "narrowSquat"
+    },
+    "wallSit": {
+      "clip": "wallSit"
+    },
+    "calfSingle": {
+      "clip": "calfSingle"
+    },
+    "march": {
+      "clip": "march"
+    },
+    "crossMarch": {
+      "clip": "crossMarch"
+    },
+    "driveMarch": {
+      "clip": "driveMarch"
+    },
+    "jack": {
+      "clip": "jack"
+    },
+    "knee": {
+      "clip": "knee"
+    },
+    "sideStep": {
+      "clip": "sideStep"
+    },
+    "doubleStep": {
+      "clip": "doubleStep"
+    },
+    "punch": {
+      "clip": "punch"
+    },
+    "uppercut": {
+      "clip": "uppercut"
+    },
+    "heelDig": {
+      "clip": "heelDig"
+    },
+    "heelReach": {
+      "clip": "heelReach"
+    },
+    "toeTap": {
+      "clip": "toeTap"
+    },
+    "curl": {
+      "clip": "curl"
+    },
+    "forwardMarch": {
+      "clip": "forwardMarch"
+    },
+    "easyMarch": {
+      "clip": "easyMarch"
+    },
+    "circles": {
+      "clip": "circles"
+    },
+    "ankle": {
+      "clip": "ankle"
+    },
+    "reach": {
+      "clip": "reach"
+    },
+    "stretchL": {
+      "clip": "stretchL"
+    },
+    "stretchR": {
+      "clip": "stretchR"
+    },
+    "breathe": {
+      "clip": "breathe"
+    },
+    "chest": {
+      "clip": "chest"
+    },
+    "standingCrunch": {
+      "clip": "standingCrunch"
+    },
+    "sideLegRaise": {
+      "clip": "sideLegRaise"
+    },
+    "backLegRaise": {
+      "clip": "backLegRaise"
+    },
+    "frontKick": {
+      "clip": "frontKick"
+    },
+    "boxerStep": {
+      "clip": "boxerStep"
+    },
+    "stepReach": {
+      "clip": "stepReach"
+    },
+    "push": {
+      "clip": "push"
+    },
+    "fullPush": {
+      "clip": "fullPush"
+    },
+    "pausePush": {
+      "clip": "pausePush"
+    },
+    "wallPush": {
+      "clip": "wallPush"
+    },
+    "bridge": {
+      "clip": "bridge"
+    },
+    "bridgeHold": {
+      "clip": "bridgeHold"
+    },
+    "bridgeMarch": {
+      "clip": "bridgeMarch"
+    },
+    "wRaise": {
+      "clip": "wRaise"
+    },
+    "wHold": {
+      "clip": "wHold"
+    },
+    "wSupported": {
+      "clip": "wSupported"
+    },
+    "angel": {
+      "clip": "angel"
+    },
+    "deadbug": {
+      "clip": "deadbug"
+    },
+    "heelSlide": {
+      "clip": "heelSlide"
+    },
+    "heelTap": {
+      "clip": "heelTap"
+    },
+    "sideL": {
+      "clip": "sideL"
+    },
+    "sideR": {
+      "clip": "sideR"
+    },
+    "sideFullL": {
+      "clip": "sideFullL"
+    },
+    "sideFullR": {
+      "clip": "sideFullR"
+    },
+    "bird": {
+      "clip": "bird"
+    },
+    "birdEasy": {
+      "clip": "birdEasy"
+    },
+    "birdHold": {
+      "clip": "birdHold"
+    },
+    "plank": {
+      "clip": "plank"
+    },
+    "fullPlank": {
+      "clip": "fullPlank"
+    },
+    "taps": {
+      "clip": "taps"
+    },
+    "weightShift": {
+      "clip": "weightShift"
+    }
+  }
+}

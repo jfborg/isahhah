@@ -1,6 +1,6 @@
 # Military Calisthenics — Three-Week Foundation
 
-Revised 31 October 2026. Program structure and opening sample approved; exercise variation expanded at the user's request. Video demonstration sample remains pending review. This is an original general-fitness program, not an official military test preparation protocol.
+Revised 15 November 2026. Program structure, opening sample and reusable 3D instructor approved. Exercise variety expanded at the owner’s request; scope remains the first three weeks. This is an original general-fitness program, not an official military test preparation protocol.
 
 ## Onboarding and personalisation
 
@@ -40,8 +40,8 @@ Format: complete all six stations, rest at the midpoint, then repeat all six.
 | 2 | March and move — optional | Brisk march; step jack; standing alternating knee drive; side step with reach; straight-punch shadow boxing; alternating heel dig with arm swing |
 | 3 | Stability | Supported split squat left; supported split squat right; push-up; standing hip hinge; prone W raise; side plank (left in round 1, right in round 2) |
 | 4 | Recovery | Rest; optional easy everyday movement outside the prescribed session |
-| 5 | Full-body control | Squat; push-up; glute bridge; prone W raise; bird dog; forearm plank |
-| 6 | Coordination — optional | March with opposite-hand knee touch; lateral step with shallow squat; step jack; alternating knee drive; straight-punch shadow boxing; brisk march |
+| 5 | Full-body control | Wide-stance squat; push-up; glute bridge; prone W raise; bird dog; forearm plank |
+| 6 | Coordination — optional | March with opposite-hand knee touch; lateral step with shallow squat; diagonal step and reach; alternating knee drive; boxer weight shift; brisk march |
 | 7 | Rest | No prescribed workout |
 
 ### Week 2 — Add variety and control
@@ -51,11 +51,11 @@ Format for strength: paired stations. Perform 1,2,1,2; then 3,4,3,4; then 5,6,5,
 | Day | Session | Six stations |
 |---|---|---|
 | 8 | Pause and control | Pause squat; push-up; glute bridge march; prone reverse snow angel; supine heel taps; slow calf raise |
-| 9 | Footwork — optional | Forward-and-back marching steps; standing hamstring curl with arm swing; step jack; side-to-side toe tap; straight-punch shadow boxing; heel dig with overhead reach |
+| 9 | Footwork — optional | Forward-and-back marching steps; standing hamstring curl with arm swing; low controlled front kick; side-to-side toe tap; straight-punch shadow boxing; heel dig with overhead reach |
 | 10 | Step-back strength | Alternating reverse lunge; push-up; hip hinge; prone W raise; side plank left; side plank right |
 | 11 | Recovery | Rest |
 | 12 | Lateral control | Alternating shallow lateral lunge; push-up; glute bridge with brief top pause; prone reverse snow angel; bird dog with brief hold; kneeling plank shoulder tap |
-| 13 | Rhythm — optional | March with opposite-hand knee touch; double side step; alternating knee drive; light uppercut shadow boxing; standing hamstring curl; low-impact step jack |
+| 13 | Rhythm — optional | Standing cross-body knee lift; double side step; standing side leg raise; light uppercut shadow boxing; standing hamstring curl; low-impact step jack |
 | 14 | Rest | No prescribed workout |
 
 New movements replace existing ones; they do not automatically add difficulty. Beginners may retain the week-1 equivalent. Pairing must not shorten recovery when the user is fatigued.
@@ -67,11 +67,11 @@ Format: two rounds of six stations. Strength users may choose one harder variati
 | Day | Session | Six stations |
 |---|---|---|
 | 15 | Controlled strength | Squat with controlled lowering; push-up; bridge march; prone W raise with brief hold; dead bug with longer comfortable reach; side plank (left round 1, right round 2) |
-| 16 | Athletic movement — optional | March with deliberate arm drive; lateral step with shallow squat; standing alternating knee drive; forward-and-back marching steps; straight-punch shadow boxing; step jack |
+| 16 | Athletic movement — optional | March with deliberate arm drive; lateral step with shallow squat; standing hip extension; forward-and-back marching steps; boxer weight shift; diagonal step and reach |
 | 17 | Unilateral control | Supported split squat left; supported split squat right; push-up with brief bottom pause; staggered-stance hip hinge (switch halfway); prone reverse snow angel; kneeling plank shoulder tap |
 | 18 | Recovery | Rest |
 | 19 | Foundation progress check | Squat; push-up; glute bridge; prone W raise; dead bug; standing calf raise — match day-1 variations and timing, without testing to failure |
-| 20 | Conditioning mix — optional | Double side step with reach; heel dig with arm swing; light uppercut shadow boxing; standing hamstring curl; march with opposite-hand knee touch; step jack |
+| 20 | Conditioning mix — optional | Double side step; low controlled front kick; light uppercut shadow boxing; standing cross-body knee lift; march with opposite-hand knee touch; step jack |
 | 21 | Rest and review | Record adherence, technique confidence, effort and discomfort; no further weeks generated without the owner's go-ahead |
 
 ## Exercise definitions and substitutions
@@ -135,3 +135,11 @@ General activity remains useful beyond these brief workouts: this plan alone doe
 - CDC adult activity guidance: https://www.cdc.gov/physical-activity-basics/guidelines/adults.html
 
 These sources support the broad principles, not validation of this exact three-week sequence.
+
+## Expanded movement library
+
+The first release includes 72 animated movement guides. This count includes easier and harder variants, left/right demonstrations, warm-ups and cooldowns; it is not a claim of 72 unrelated exercise types. The three-week schedule uses 50 distinct main-work station IDs, with additional regressions selected through onboarding. Close-stance squat, shallow wall sit and supported single-leg calf raise are additional library options; no extra weeks are generated.
+
+New low-impact options include standing cross-body knee lift, standing side leg raise, standing hip extension, low controlled front kick, boxer weight shift and diagonal step/reach. Beginners receive appropriate familiar substitutions. Retaining several recurring strength movements allows practice and a meaningful day-1/day-19 comparison. The 15-minute active cap is unchanged.
+
+The approved instructor is a reusable rigged 3D model. Each guide has an authored animation and spoken coaching; the app supports pause and front/side camera views. Visual and joint-reach checks are production checks, not a qualified trainer’s assessment of a user or clinical validation.
