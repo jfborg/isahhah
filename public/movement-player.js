@@ -34,15 +34,16 @@ export async function showMovement(container,id,{paused=false,controls=true,onEr
   const model=gltf.scene;scene.add(model);model.traverse(o=>{if(o.isMesh){o.castShadow=true;o.receiveShadow=true;o.frustumCulled=false;}});
   const props=new THREE.Group();scene.add(props);
   const cube=(x,y,z,w,h,d,color=0x596354)=>{const o=new THREE.Mesh(new THREE.BoxGeometry(w,h,d),new THREE.MeshStandardMaterial({color,roughness:.8}));o.position.set(x,y,z);o.castShadow=true;o.receiveShadow=true;props.add(o);return o;};
+  const glass=o=>{o.material.transparent=true;o.material.opacity=.23;o.material.depthWrite=false;o.castShadow=false;return o;};
   const wall=spec.view==='wall'||spec.prop==='backWall';
-  if(wall){const z=spec.prop==='backWall'?-.32:-(spec.wallY??-.53);cube(0,.85,z,1.5,1.7,.045,0xbbc5b3);}
+  if(wall){const z=spec.prop==='backWall'?-.32:-(spec.wallY??-.53);glass(cube(0,.85,z,1.5,1.7,.045,0xbbc5b3));}
   if(spec.prop==='chair'){
    cube(0,.44,-.30,.46,.055,.43);cube(0,.74,-.49,.46,.53,.045);
    for(const x of [-.19,.19])for(const z of [-.47,-.13])cube(x,.21,z,.035,.42,.035);
-   cube(0,.9,-.54,1.2,1.8,.04,0xbbc5b3);
+   glass(cube(0,.9,-.54,1.2,1.8,.04,0xbbc5b3));
   }
   if(spec.prop==='support'){
-   cube(.45,.92,.04,.04,1.84,.70,0xbbc5b3);
+   glass(cube(.45,.92,.04,.04,1.84,.70,0xbbc5b3));
   }
   const mixer=new THREE.AnimationMixer(model);const action=mixer.clipAction(clip);action.play();mixer.setTime(0);
   let last=performance.now(),raf,playing=!paused;
