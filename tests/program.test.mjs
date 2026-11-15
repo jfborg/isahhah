@@ -2,20 +2,30 @@ import assert from 'node:assert/strict';
 import {test} from 'node:test';
 import {EXERCISES,SESSIONS,LEVELS,buildTimeline,activeSeconds,totalSeconds,included,safetyReasons,variation,CAP} from '../public/program.js';
 import {consumeTime} from '../public/clock.js';
+function assertTwoMinuteBookends(timeline){
+ for(const kind of ['warmup','cooldown']){
+  const phase=timeline.filter(x=>x.kind===kind);
+  assert.equal(phase.length,4);
+  assert.equal(phase.reduce((sum,x)=>sum+x.seconds,0),120);
+  assert.ok(phase.every(x=>x.seconds===30));
+  assert.deepEqual(kind==='warmup'?timeline.slice(0,4):timeline.slice(-4),phase);
+ }
+ assert.ok(timeline.slice(-4).some(x=>EXERCISES[x.id].family==='stretch'));
+}
 export function verifyProgramme(){
  let checks=0;
  for(const level of Object.keys(LEVELS))for(const days of [3,4,5])for(const equipment of [[],['mat','chair']])for(const choice of ['easier','standard','harder']){
   const families=[...new Set(Object.values(EXERCISES).map(e=>e.family))];
   const p={level,days,equipment,variations:Object.fromEntries(families.map(f=>[f,choice])),age:'18-39',pain:'none',floor:'yes',goal:'general'};
   assert.equal(SESSIONS.filter(s=>included(s,days)).length,days*3);
-  for(const s of SESSIONS){const t=buildTimeline(s,p);assert.equal(t.filter(x=>x.kind==='work').length,12);assert.equal(t.filter(x=>x.kind==='rest').length,11);assert.equal(t.filter(x=>x.kind==='rest'&&x.seconds===60).length,1);assert.equal(activeSeconds(t),240+12*LEVELS[level]);assert.equal(totalSeconds(t)-activeSeconds(t),360);assert.ok(activeSeconds(t)<=CAP);assert.ok(t.every(x=>!x.id||EXERCISES[x.id]));if(!equipment.includes('chair'))assert.ok(!t.some(x=>x.id==='chairSquat'));checks++;}
+  for(const s of SESSIONS){const t=buildTimeline(s,p);assert.equal(t.filter(x=>x.kind==='work').length,12);assert.equal(t.filter(x=>x.kind==='rest').length,11);assert.equal(t.filter(x=>x.kind==='rest'&&x.seconds===60).length,1);assert.equal(activeSeconds(t),240+12*LEVELS[level]);assert.equal(totalSeconds(t)-activeSeconds(t),360);assert.ok(activeSeconds(t)<=CAP);assert.ok(t.every(x=>!x.id||EXERCISES[x.id]));assertTwoMinuteBookends(t);if(!equipment.includes('chair'))assert.ok(!t.some(x=>x.id==='chairSquat'));checks++;}
  }
  const p={level:'regular',days:5,equipment:['chair'],age:'18-39',pain:'none',floor:'yes',goal:'general'};
  assert.deepEqual(buildTimeline(SESSIONS.find(s=>s.day===8),p).filter(x=>x.kind==='work').map(x=>x.station),[1,2,1,2,3,4,3,4,5,6,5,6]);
  const side=buildTimeline(SESSIONS.find(s=>s.day===3),p).filter(x=>x.kind==='work'&&EXERCISES[x.id].family==='side');assert.deepEqual(side.map(x=>x.id),['sideL','sideR']);
  assert.equal(variation('push',{...p,level:'beginner'}),'wallPush');assert.equal(variation('squat',{...p,level:'beginner',equipment:[]}),'shallowSquat');
  for(const answer of [{age:'under18'},{pain:'current'},{pain:'restriction'},{floor:'no'},{goal:'test'}])assert.ok(safetyReasons({...p,...answer}).length);assert.equal(safetyReasons(p).length,0);
- const baseline={level:'beginner',variations:{push:'easier',squat:'easier'}};const comparison=buildTimeline(SESSIONS.find(s=>s.day===19),p,baseline);assert.equal(activeSeconds(comparison),600);assert.ok(comparison.filter(x=>x.original==='push').every(x=>x.id==='wallPush'));
+ const baseline={level:'beginner',variations:{push:'easier',squat:'easier'}};const comparison=buildTimeline(SESSIONS.find(s=>s.day===19),p,baseline);assert.equal(activeSeconds(comparison),600);assertTwoMinuteBookends(comparison);assert.ok(comparison.filter(x=>x.original==='push').every(x=>x.id==='wallPush'));
  return checks;
 }
 test('all three weeks preserve timing, substitutions and safety gates',()=>{assert.equal(verifyProgramme(),810);});

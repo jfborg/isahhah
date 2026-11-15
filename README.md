@@ -4,7 +4,7 @@
 
 The first release contains three weeks of training: nine strength sessions and six optional low-impact conditioning sessions, with 72 animated movement guides and female coaching. The 72 count includes regressions, progressions, left/right guides, warm-ups and cooldowns. The schedule uses 50 distinct main-work station entries and retains the opening session for the final comparison.
 
-Sessions contain 10, 12 or 14 active minutes according to the selected level, including warm-up and cooldown. Rest is tracked separately. Timed practice also counts toward the hard 15-minute active cap. Onboarding asks about experience, goals, equipment, schedule, floor capability and exercise restrictions before assigning a routine. Progress stays in the current browser.
+Sessions contain 10, 12 or 14 active minutes according to the selected level, including a 2-minute warm-up and a 2-minute cooldown with stretching. Each session preview lists all four 30-second movements in both blocks, with demonstrations. Rest is tracked separately. Timed practice also counts toward the hard 15-minute active cap. Onboarding asks about experience, goals, equipment, schedule, floor capability and exercise restrictions before assigning a routine. Progress stays in the current browser.
 
 ## Run and check
 
