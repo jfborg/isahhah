@@ -1,8 +1,8 @@
 {
-  "exercise_coverage": 72,
-  "total_recordings": 74,
+  "exercise_coverage": 81,
+  "total_recordings": 83,
   "existing_recordings_decoded": 44,
-  "new_recordings_decoded": 30,
+  "new_recordings_decoded": 39,
   "missing": [],
   "failures": [],
   "new_audio_stats": {
@@ -155,6 +155,51 @@
       "duration_seconds": 3.0,
       "rms": 0.1208,
       "peak": 0.7975
+    },
+    "hamstringStretchL": {
+      "duration_seconds": 17.4,
+      "rms": 0.112,
+      "peak": 0.7476
+    },
+    "hamstringStretchR": {
+      "duration_seconds": 17.0,
+      "rms": 0.1126,
+      "peak": 0.805
+    },
+    "hipFlexorStretchL": {
+      "duration_seconds": 17.525,
+      "rms": 0.1165,
+      "peak": 0.7953
+    },
+    "hipFlexorStretchR": {
+      "duration_seconds": 17.55,
+      "rms": 0.116,
+      "peak": 0.7993
+    },
+    "quadStretchL": {
+      "duration_seconds": 17.725,
+      "rms": 0.1097,
+      "peak": 0.7986
+    },
+    "quadStretchR": {
+      "duration_seconds": 17.575,
+      "rms": 0.1108,
+      "peak": 0.7918
+    },
+    "gluteStretchL": {
+      "duration_seconds": 16.95,
+      "rms": 0.1092,
+      "peak": 0.7559
+    },
+    "gluteStretchR": {
+      "duration_seconds": 17.075,
+      "rms": 0.11,
+      "peak": 0.6957
+    },
+    "upperBackStretch": {
+      "duration_seconds": 17.225,
+      "rms": 0.1126,
+      "peak": 0.7907
     }
   },
   "new_paid_calls": 0

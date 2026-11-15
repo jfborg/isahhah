@@ -7,3 +7,4 @@ animation/build/
 animation/__pycache__/
 *.blend1
 public/media/3d/instructor-test.glb
+animation/checks-test.json

@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import {test} from 'node:test';
-import {EXERCISES,SESSIONS,LEVELS,buildTimeline,activeSeconds,totalSeconds,included,safetyReasons,variation,CAP} from '../public/program.js';
+import {EXERCISES,SESSIONS,SESSION_PREPARATION,LEVELS,buildTimeline,activeSeconds,totalSeconds,included,safetyReasons,variation,CAP} from '../public/program.js';
 import {consumeTime} from '../public/clock.js';
 function assertTwoMinuteBookends(timeline){
  for(const kind of ['warmup','cooldown']){
@@ -34,4 +34,22 @@ test('active cap, rests, phase boundaries and background suspension',()=>{
  const r=consumeTime({active:840,rest:30,remaining:30},'rest',1);assert.equal(r.active,840);assert.equal(r.rest,31);
  const boundary=consumeTime({active:10,rest:0,remaining:.1},'work',1);assert.equal(boundary.active,10.1);assert.equal(boundary.remaining,0);
  const suspend=consumeTime({active:10,rest:0,remaining:30},'work',45);assert.equal(suspend.active,10);assert.equal(suspend.remaining,30);assert.equal(suspend.suspended,true);
+});
+
+test('session preparation varies, follows the main work and balances both sides',()=>{
+ const plans=SESSIONS.map(s=>SESSION_PREPARATION[s.day]);
+ assert.equal(plans.length,15);
+ assert.equal(new Set(plans.map(p=>p.warmup.join(','))).size,14);
+ assert.ok(new Set(plans.map(p=>p.cooldown.slice(1).sort().join(','))).size>=10);
+ const expected={1:'stretch',2:'stretch',3:'hipFlexorStretch',5:'gluteStretch',6:'hipFlexorStretch',8:'hamstringStretch',9:'hamstringStretch',10:'quadStretch',12:'gluteStretch',13:'quadStretch',15:'hamstringStretch',16:'gluteStretch',17:'hipFlexorStretch',19:'stretch',20:'hipFlexorStretch'};
+ for(const session of SESSIONS){
+  const p=SESSION_PREPARATION[session.day],pair=expected[session.day];
+  assert.ok(p.warmupNote&&p.cooldownNote&&p.focus);
+  assert.ok(p.warmup.every(id=>EXERCISES[id].family!=='stretch'));
+  assert.ok(['easyMarch','sideStep','heelDig'].includes(p.cooldown[0]));
+  assert.ok(p.cooldown.includes(pair+'L')&&p.cooldown.includes(pair+'R'));
+  for(const id of p.cooldown.filter(id=>/[LR]$/.test(id)))assert.ok(p.cooldown.includes(id.slice(0,-1)+(id.endsWith('L')?'R':'L')));
+ }
+ assert.deepEqual(SESSION_PREPARATION[19].warmup,SESSION_PREPARATION[1].warmup);
+ assert.deepEqual(SESSION_PREPARATION[19].cooldown,SESSION_PREPARATION[1].cooldown);
 });

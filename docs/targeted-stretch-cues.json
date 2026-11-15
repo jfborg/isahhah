@@ -1,0 +1,47 @@
+{
+  "hamstringStretchL": {
+    "name": "Standing hamstring stretch \u00b7 left",
+    "cue": "Place your left heel a little forward with toes raised and knee soft. Bend the other knee and hinge gently at the hips, hands resting lightly on the upper thigh. Keep your back long. Hold a mild stretch behind the thigh; do not bounce.",
+    "target": "Hamstrings"
+  },
+  "hipFlexorStretchL": {
+    "name": "Standing hip-flexor stretch \u00b7 left",
+    "cue": "Put your left foot behind you in a short split stance with the rear heel raised. Use wall support. Keep your trunk upright, gently tuck your pelvis and soften the front knee. Hold a mild stretch at the front of the rear hip without arching your back.",
+    "target": "Hip flexors"
+  },
+  "quadStretchL": {
+    "name": "Supported thigh stretch \u00b7 left",
+    "cue": "Hold a wall with one hand. Bend your left knee and gently hold that ankle with the same-side hand. Keep knees close and your trunk upright. Hold a mild stretch at the front of the thigh. If you cannot comfortably reach your ankle, release and rest.",
+    "target": "Quadriceps"
+  },
+  "gluteStretchL": {
+    "name": "Supine knee-to-chest stretch \u00b7 left",
+    "cue": "Lie on your back with knees bent and both feet grounded. Hold behind your left thigh and gently bring that knee toward your chest. Keep your head and other foot supported. Hold a comfortable stretch around the back of your hip; do not pull hard.",
+    "target": "Glutes and lower back"
+  },
+  "hamstringStretchR": {
+    "name": "Standing hamstring stretch \u00b7 right",
+    "cue": "Place your right heel a little forward with toes raised and knee soft. Bend the other knee and hinge gently at the hips, hands resting lightly on the upper thigh. Keep your back long. Hold a mild stretch behind the thigh; do not bounce.",
+    "target": "Hamstrings"
+  },
+  "hipFlexorStretchR": {
+    "name": "Standing hip-flexor stretch \u00b7 right",
+    "cue": "Put your right foot behind you in a short split stance with the rear heel raised. Use wall support. Keep your trunk upright, gently tuck your pelvis and soften the front knee. Hold a mild stretch at the front of the rear hip without arching your back.",
+    "target": "Hip flexors"
+  },
+  "quadStretchR": {
+    "name": "Supported thigh stretch \u00b7 right",
+    "cue": "Hold a wall with one hand. Bend your right knee and gently hold that ankle with the same-side hand. Keep knees close and your trunk upright. Hold a mild stretch at the front of the thigh. If you cannot comfortably reach your ankle, release and rest.",
+    "target": "Quadriceps"
+  },
+  "gluteStretchR": {
+    "name": "Supine knee-to-chest stretch \u00b7 right",
+    "cue": "Lie on your back with knees bent and both feet grounded. Hold behind your right thigh and gently bring that knee toward your chest. Keep your head and other foot supported. Hold a comfortable stretch around the back of your hip; do not pull hard.",
+    "target": "Glutes and lower back"
+  },
+  "upperBackStretch": {
+    "name": "Gentle upper-back reach",
+    "cue": "Stand tall with knees soft. Bring your hands together in front at chest height and gently reach forwards. Let your shoulder blades move apart while keeping your neck relaxed. Hold a mild stretch across the upper back without forcing a rounded spine.",
+    "target": "Upper back"
+  }
+}

@@ -76,7 +76,16 @@
     "breathe": "/media/coaching/breathe.mp3",
     "chest": "/media/coaching/chest.mp3",
     "rest": "/media/coaching/rest.mp3",
-    "switch": "/media/coaching/switch.mp3"
+    "switch": "/media/coaching/switch.mp3",
+    "upperBackStretch": "/media/coaching/upperBackStretch.mp3",
+    "gluteStretchR": "/media/coaching/gluteStretchR.mp3",
+    "quadStretchR": "/media/coaching/quadStretchR.mp3",
+    "hipFlexorStretchR": "/media/coaching/hipFlexorStretchR.mp3",
+    "hamstringStretchR": "/media/coaching/hamstringStretchR.mp3",
+    "gluteStretchL": "/media/coaching/gluteStretchL.mp3",
+    "quadStretchL": "/media/coaching/quadStretchL.mp3",
+    "hipFlexorStretchL": "/media/coaching/hipFlexorStretchL.mp3",
+    "hamstringStretchL": "/media/coaching/hamstringStretchL.mp3"
   },
   "music": "/media/music.mp3",
   "welcome": "/media/welcome.mp3",
@@ -296,6 +305,33 @@
     },
     "weightShift": {
       "clip": "weightShift"
+    },
+    "upperBackStretch": {
+      "clip": "upperBackStretch"
+    },
+    "gluteStretchR": {
+      "clip": "gluteStretchR"
+    },
+    "quadStretchR": {
+      "clip": "quadStretchR"
+    },
+    "hipFlexorStretchR": {
+      "clip": "hipFlexorStretchR"
+    },
+    "hamstringStretchR": {
+      "clip": "hamstringStretchR"
+    },
+    "gluteStretchL": {
+      "clip": "gluteStretchL"
+    },
+    "quadStretchL": {
+      "clip": "quadStretchL"
+    },
+    "hipFlexorStretchL": {
+      "clip": "hipFlexorStretchL"
+    },
+    "hamstringStretchL": {
+      "clip": "hamstringStretchL"
     }
   }
 }

@@ -258,6 +258,7 @@ def mobility(p,id,t):
   for side,s in SIDES:
    p.arm_dirs(side,(s*.18,.18*math.sin(phase),-.98),(-s*.08,.24*math.sin(phase+.35),-.97))
  elif id=='chest':
+  a=.75+.01*math.sin(TAU*t)  # Gentle static opening; avoid repeated bouncing.
   for side,s in SIDES:p.arm_dirs(side,(s*(.24+.18*a),.12*a,-.95), (s*.20,.25*a,-.95))
  else:
   for side,s in SIDES:p.arm_dirs(side,(s*.12,-.10,-.98),(-s*.08,-.22+.025*a,-.97))

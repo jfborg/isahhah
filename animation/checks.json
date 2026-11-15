@@ -430,5 +430,59 @@
     "duration": 6,
     "max_unreachable_m": 0,
     "loop_matrix_error": 0.0
+  },
+  "hamstringStretchL": {
+    "frames": 73,
+    "duration": 6,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "hamstringStretchR": {
+    "frames": 73,
+    "duration": 6,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "hipFlexorStretchL": {
+    "frames": 73,
+    "duration": 6,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "hipFlexorStretchR": {
+    "frames": 73,
+    "duration": 6,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "quadStretchL": {
+    "frames": 73,
+    "duration": 6,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "quadStretchR": {
+    "frames": 73,
+    "duration": 6,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "upperBackStretch": {
+    "frames": 73,
+    "duration": 6,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "gluteStretchL": {
+    "frames": 73,
+    "duration": 6,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
+  },
+  "gluteStretchR": {
+    "frames": 73,
+    "duration": 6,
+    "max_unreachable_m": 0,
+    "loop_matrix_error": 0.0
   }
 }

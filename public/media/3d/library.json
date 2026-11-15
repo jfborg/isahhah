@@ -298,6 +298,46 @@
     "weightShift": {
       "duration": 6,
       "view": "floor"
+    },
+    "hamstringStretchL": {
+      "duration": 6,
+      "view": "standing"
+    },
+    "hamstringStretchR": {
+      "duration": 6,
+      "view": "standing"
+    },
+    "hipFlexorStretchL": {
+      "duration": 6,
+      "view": "wall",
+      "wallY": -0.49
+    },
+    "hipFlexorStretchR": {
+      "duration": 6,
+      "view": "wall",
+      "wallY": -0.49
+    },
+    "quadStretchL": {
+      "duration": 6,
+      "view": "wall",
+      "wallY": -0.45
+    },
+    "quadStretchR": {
+      "duration": 6,
+      "view": "wall",
+      "wallY": -0.45
+    },
+    "upperBackStretch": {
+      "duration": 6,
+      "view": "standing"
+    },
+    "gluteStretchL": {
+      "duration": 6,
+      "view": "floor"
+    },
+    "gluteStretchR": {
+      "duration": 6,
+      "view": "floor"
     }
   }
 }

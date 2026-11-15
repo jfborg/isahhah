@@ -3,6 +3,24 @@ export const LEVEL_NAMES = {beginner:'Beginner / returning',regular:'Regular',ad
 export const CAP = 900;
 const ex = (name, family, cue, easier, harder, zone='Full body', media=null) => ({name,family,cue,easier,harder,zone,media});
 export const EXERCISES = {
+ upperBackStretch:{...ex("Gentle upper-back reach",'stretch',"Stand tall with knees soft. Bring your hands together in front at chest height and gently reach forwards. Let your shoulder blades move apart while keeping your neck relaxed. Hold a mild stretch across the upper back without forcing a rounded spine.","Reach less, keeping your back comfortable",'Keep the stretch mild','Cooldown'),target:"Upper back"},
+
+ gluteStretchR:{...ex("Supine knee-to-chest stretch · right",'stretch',"Lie on your back with knees bent and both feet grounded. Hold behind your right thigh and gently bring that knee toward your chest. Keep your head and other foot supported. Hold a comfortable stretch around the back of your hip; do not pull hard.","Bring the knee only a little toward you",'Keep the stretch mild','Cooldown'),target:"Glutes and lower back"},
+
+ quadStretchR:{...ex("Supported thigh stretch · right",'stretch',"Hold a wall with one hand. Bend your right knee and gently hold that ankle with the same-side hand. Keep knees close and your trunk upright. Hold a mild stretch at the front of the thigh. If you cannot comfortably reach your ankle, release and rest.","Release the ankle and rest if reaching is uncomfortable",'Keep the stretch mild','Cooldown'),target:"Quadriceps"},
+
+ hipFlexorStretchR:{...ex("Standing hip-flexor stretch · right",'stretch',"Put your right foot behind you in a short split stance with the rear heel raised. Use wall support. Keep your trunk upright, gently tuck your pelvis and soften the front knee. Hold a mild stretch at the front of the rear hip without arching your back.","Shorter stance and less bend",'Keep the stretch mild','Cooldown'),target:"Hip flexors"},
+
+ hamstringStretchR:{...ex("Standing hamstring stretch · right",'stretch',"Place your right heel a little forward with toes raised and knee soft. Bend the other knee and hinge gently at the hips, hands resting lightly on the upper thigh. Keep your back long. Hold a mild stretch behind the thigh; do not bounce.","Shorter stance and smaller hip hinge",'Keep the stretch mild','Cooldown'),target:"Hamstrings"},
+
+ gluteStretchL:{...ex("Supine knee-to-chest stretch · left",'stretch',"Lie on your back with knees bent and both feet grounded. Hold behind your left thigh and gently bring that knee toward your chest. Keep your head and other foot supported. Hold a comfortable stretch around the back of your hip; do not pull hard.","Bring the knee only a little toward you",'Keep the stretch mild','Cooldown'),target:"Glutes and lower back"},
+
+ quadStretchL:{...ex("Supported thigh stretch · left",'stretch',"Hold a wall with one hand. Bend your left knee and gently hold that ankle with the same-side hand. Keep knees close and your trunk upright. Hold a mild stretch at the front of the thigh. If you cannot comfortably reach your ankle, release and rest.","Release the ankle and rest if reaching is uncomfortable",'Keep the stretch mild','Cooldown'),target:"Quadriceps"},
+
+ hipFlexorStretchL:{...ex("Standing hip-flexor stretch · left",'stretch',"Put your left foot behind you in a short split stance with the rear heel raised. Use wall support. Keep your trunk upright, gently tuck your pelvis and soften the front knee. Hold a mild stretch at the front of the rear hip without arching your back.","Shorter stance and less bend",'Keep the stretch mild','Cooldown'),target:"Hip flexors"},
+
+ hamstringStretchL:{...ex("Standing hamstring stretch · left",'stretch',"Place your left heel a little forward with toes raised and knee soft. Bend the other knee and hinge gently at the hips, hands resting lightly on the upper thigh. Keep your back long. Hold a mild stretch behind the thigh; do not bounce.","Shorter stance and smaller hip hinge",'Keep the stretch mild','Cooldown'),target:"Hamstrings"},
+
  sumoSquat:ex('Wide-stance squat','squat','Use a comfortably wider stance with toes turned slightly out. Bend knees in line with toes, keep whole feet grounded, and stand smoothly.','Ordinary shallow squat','Slower lowering','Legs'),
  narrowSquat:ex('Close-stance squat','squat','Bring feet a little closer than your usual stance. Lower only through a comfortable range, keep heels grounded and stand with control.','Ordinary squat','Brief comfortable pause','Legs'),
  wallSit:ex('Shallow wall sit','squat','Rest your back against a stable wall. Walk feet forward a little and bend knees to a comfortable shallow angle. Breathe throughout; stand to rest before form fades.','Higher position and shorter hold','Slightly lower comfortable hold','Legs'),
@@ -72,31 +90,47 @@ export const EXERCISES = {
  circles:ex('Shoulder circles and arm swings','mobility','Roll your shoulders gently and swing your arms through a comfortable range. Avoid forcing any movement.','Smaller circles','Relaxed arm swings','Warm-up'),
  ankle:ex('Ankle rocks','mobility','Hold stable support. Gently shift weight from heels toward forefeet and back, keeping the movement small.','Smaller movement','Comfortable controlled range','Warm-up'),
  reach:ex('Gentle arm reaches','mobility','Reach one arm, then the other, comfortably upward and forward. Keep your ribs relaxed.','Arms below shoulder height','Comfortable higher reach','Warm-up'),
- stretchL:ex('Supported calf stretch · left','stretch','Left leg behind with heel grounded, front knee slightly bent. Hold a wall. Feel a mild stretch; never force it.','Shorter stance','Mild comfortable hold','Cooldown'),
- stretchR:ex('Supported calf stretch · right','stretch','Right leg behind with heel grounded, front knee slightly bent. Hold a wall. Feel a mild stretch; never force it.','Shorter stance','Mild comfortable hold','Cooldown'),
+ stretchL:{...ex('Supported calf stretch · left','stretch','Left leg behind with heel grounded, front knee slightly bent. Hold a wall. Feel a mild stretch; never force it.','Shorter stance','Mild comfortable hold','Cooldown'),target:'Calves'},
+ stretchR:{...ex('Supported calf stretch · right','stretch','Right leg behind with heel grounded, front knee slightly bent. Hold a wall. Feel a mild stretch; never force it.','Shorter stance','Mild comfortable hold','Cooldown'),target:'Calves'},
  breathe:ex('Standing breathing and shoulder release','mobility','Stand comfortably. Breathe slowly and let your shoulders soften. Make small gentle shoulder movements.','Still relaxed breathing','Gentle shoulder movement','Cooldown'),
- chest:ex('Comfortable chest opening','mobility','Stand tall with arms low. Gently draw shoulders back to open the chest without arching. Breathe naturally.','Smaller movement','Mild comfortable hold','Cooldown')
+ chest:{...ex('Comfortable chest opening','mobility','Stand tall with arms low. Gently draw shoulders back to open the chest without arching. Breathe naturally.','Smaller movement','Mild comfortable hold','Cooldown'),target:'Chest and front shoulders'}
 };
-const S = (day,name,kind,moves,focus,warmup) => ({day,name,kind,moves,focus,warmup,week:Math.ceil(day/7)});
+const S = (day,name,kind,moves,focus) => ({day,name,kind,moves,focus,week:Math.ceil(day/7)});
 export const SESSIONS = [
- S(1,'Foundation','strength',['squat','push','bridge','wRaise','deadbug','calf'],'Learn your six essentials.','A'),
- S(2,'March & move','conditioning',['march','jack','knee','sideStep','punch','heelDig'],'Find your rhythm, keep it conversational.','B'),
- S(3,'Stability','strength',['splitL','splitR','push','hinge','wRaise','sideRound'],'Build a steady base.','C'),
- S(5,'Full-body control','strength',['sumoSquat','push','bridge','wRaise','bird','plank'],'Move with purpose from head to toe.','A'),
- S(6,'Coordination','conditioning',['crossMarch','sideSquat','stepReach','knee','boxerStep','march'],'A little rhythm. A little coordination.','B'),
- S(8,'Pause & control','strength',['pauseSquat','push','bridgeMarch','angel','heelTap','slowCalf'],'Slow down to build control.','B'),
- S(9,'Footwork','conditioning',['forwardMarch','curl','frontKick','toeTap','punch','heelReach'],'Stay light on your feet.','C'),
- S(10,'Step-back strength','strength',['reverse','push','hinge','wRaise','sideL','sideR'],'Train both sides with care.','A'),
- S(12,'Lateral control','strength',['lateral','push','bridgeHold','angel','birdHold','taps'],'Explore a different direction.','B'),
- S(13,'Rhythm','conditioning',['standingCrunch','doubleStep','sideLegRaise','uppercut','curl','jack'],'Easy energy, flowing movement.','C'),
- S(15,'Controlled strength','strength',['slowSquat','push','bridgeMarch','wHold','deadbug','sideRound'],'Choose control over speed.','C'),
- S(16,'Athletic movement','conditioning',['driveMarch','sideSquat','backLegRaise','forwardMarch','boxerStep','stepReach'],'Move confidently in your space.','A'),
- S(17,'Unilateral control','strength',['splitL','splitR','pausePush','staggerHinge','angel','taps'],'Build balance, one side at a time.','B'),
- S(19,'Foundation check-in','strength',['squat','push','bridge','wRaise','deadbug','calf'],'Repeat day one. Notice what feels different.','C'),
- S(20,'Conditioning mix','conditioning',['doubleStep','frontKick','uppercut','standingCrunch','crossMarch','jack'],'Finish your foundation with a fresh mix.','A')
+ S(1,'Foundation','strength',['squat','push','bridge','wRaise','deadbug','calf'],'Learn your six essentials.'),
+ S(2,'March & move','conditioning',['march','jack','knee','sideStep','punch','heelDig'],'Find your rhythm, keep it conversational.'),
+ S(3,'Stability','strength',['splitL','splitR','push','hinge','wRaise','sideRound'],'Build a steady base.'),
+ S(5,'Full-body control','strength',['sumoSquat','push','bridge','wRaise','bird','plank'],'Move with purpose from head to toe.'),
+ S(6,'Coordination','conditioning',['crossMarch','sideSquat','stepReach','knee','boxerStep','march'],'A little rhythm. A little coordination.'),
+ S(8,'Pause & control','strength',['pauseSquat','push','bridgeMarch','angel','heelTap','slowCalf'],'Slow down to build control.'),
+ S(9,'Footwork','conditioning',['forwardMarch','curl','frontKick','toeTap','punch','heelReach'],'Stay light on your feet.'),
+ S(10,'Step-back strength','strength',['reverse','push','hinge','wRaise','sideL','sideR'],'Train both sides with care.'),
+ S(12,'Lateral control','strength',['lateral','push','bridgeHold','angel','birdHold','taps'],'Explore a different direction.'),
+ S(13,'Rhythm','conditioning',['standingCrunch','doubleStep','sideLegRaise','uppercut','curl','jack'],'Easy energy, flowing movement.'),
+ S(15,'Controlled strength','strength',['slowSquat','push','bridgeMarch','wHold','deadbug','sideRound'],'Choose control over speed.'),
+ S(16,'Athletic movement','conditioning',['driveMarch','sideSquat','backLegRaise','forwardMarch','boxerStep','stepReach'],'Move confidently in your space.'),
+ S(17,'Unilateral control','strength',['splitL','splitR','pausePush','staggerHinge','angel','taps'],'Build balance, one side at a time.'),
+ S(19,'Foundation check-in','strength',['squat','push','bridge','wRaise','deadbug','calf'],'Repeat day one. Notice what feels different.'),
+ S(20,'Conditioning mix','conditioning',['doubleStep','frontKick','uppercut','standingCrunch','crossMarch','jack'],'Finish your foundation with a fresh mix.')
 ];
-const WARMUPS={A:['easyMarch','circles','hinge','shallowSquat'],B:['sideStep','ankle','knee','splitSwitch'],C:['heelDig','reach','sideStep','shallowSquat']};
-const COOLDOWNS={strength:['easyMarch','stretchL','stretchR','breathe'],conditioning:['sideStep','chest','stretchL','stretchR']};
+// Four 30-second movements per phase. Repeat day 1 on day 19 for a fair check-in.
+export const SESSION_PREPARATION = {
+ 1: {"warmup": ["easyMarch", "circles", "hinge", "shallowSquat"], "cooldown": ["easyMarch", "chest", "stretchL", "stretchR"], "focus": "Squats, pushing, bridges and calf work", "warmupNote": "Hips and shoulders, then a shallow squat rehearsal.", "cooldownNote": "Calves after calf raises, plus chest after push-ups."},
+ 2: {"warmup": ["sideStep", "ankle", "circles", "knee"], "cooldown": ["heelDig", "upperBackStretch", "stretchL", "stretchR"], "focus": "Marching, step jacks and light punches", "warmupNote": "Ankles, shoulders and gentle knee lifts for marching and step jacks.", "cooldownNote": "Calves after repeated steps, plus upper back after punching."},
+ 3: {"warmup": ["heelDig", "hinge", "splitSwitch", "wallPush"], "cooldown": ["easyMarch", "upperBackStretch", "hipFlexorStretchL", "hipFlexorStretchR"], "focus": "Split squats, hinges, pushing and trunk stability", "warmupNote": "Hips, split stance and an easy push-up pattern.", "cooldownNote": "Front of the hips after split squats, plus upper back after W raises."},
+ 5: {"warmup": ["easyMarch", "sideSquat", "wallPush", "birdEasy"], "cooldown": ["easyMarch", "chest", "gluteStretchL", "gluteStretchR"], "focus": "Wide squats, bridges, pushing and core control", "warmupNote": "Side-to-side leg movement, gentle pushing and supported trunk control.", "cooldownNote": "Glutes after squats and bridges, plus chest after pushing."},
+ 6: {"warmup": ["sideStep", "reach", "toeTap", "knee"], "cooldown": ["heelDig", "upperBackStretch", "hipFlexorStretchL", "hipFlexorStretchR"], "focus": "Knee lifts, diagonal steps and boxing", "warmupNote": "Shoulders, lateral steps and low knee lifts for coordination.", "cooldownNote": "Hip flexors after repeated knee lifts, plus upper back after boxing."},
+ 8: {"warmup": ["heelDig", "ankle", "wallPush", "hinge"], "cooldown": ["easyMarch", "chest", "hamstringStretchL", "hamstringStretchR"], "focus": "Paused squats, bridges, pushing and calf control", "warmupNote": "Ankles, gentle pushing and hip movement before controlled strength.", "cooldownNote": "Hamstrings after bridges and squats, plus chest after push-ups."},
+ 9: {"warmup": ["easyMarch", "ankle", "curl", "heelDig"], "cooldown": ["sideStep", "upperBackStretch", "hamstringStretchL", "hamstringStretchR"], "focus": "Footwork, hamstring curls, low kicks and punches", "warmupNote": "Ankles and easy knee bends before curls and low kicks.", "cooldownNote": "Hamstrings after curls and kicks, plus upper back after punching."},
+ 10: {"warmup": ["sideStep", "splitSwitch", "hinge", "wallPush"], "cooldown": ["easyMarch", "upperBackStretch", "quadStretchL", "quadStretchR"], "focus": "Reverse lunges, hinges, pushing and side planks", "warmupNote": "A shallow split stance, gentle hip hinge and easy pushing.", "cooldownNote": "Quadriceps after lunges, plus upper back after W raises."},
+ 12: {"warmup": ["easyMarch", "sideSquat", "wallPush", "weightShift"], "cooldown": ["easyMarch", "upperBackStretch", "gluteStretchL", "gluteStretchR"], "focus": "Lateral lunges, bridges, pushing and shoulder taps", "warmupNote": "Side-to-side leg loading and gentle hand support before taps.", "cooldownNote": "Glutes after lateral lunges and bridges, plus upper back after arm sweeps."},
+ 13: {"warmup": ["heelDig", "toeTap", "circles", "curl"], "cooldown": ["sideStep", "chest", "quadStretchL", "quadStretchR"], "focus": "Knee lifts, side steps, curls and uppercuts", "warmupNote": "Lateral steps, relaxed shoulders and easy knee bends.", "cooldownNote": "Quadriceps after repeated leg work, plus chest after uppercuts and arm reaches."},
+ 15: {"warmup": ["sideStep", "shallowSquat", "wallPush", "heelSlide"], "cooldown": ["easyMarch", "upperBackStretch", "hamstringStretchL", "hamstringStretchR"], "focus": "Slow squats, bridges, upper-back and core work", "warmupNote": "Gentle squats and pushing, then controlled trunk movement.", "cooldownNote": "Hamstrings after bridges and squats, plus upper back after W holds."},
+ 16: {"warmup": ["heelDig", "hinge", "circles", "sideSquat"], "cooldown": ["heelDig", "upperBackStretch", "gluteStretchL", "gluteStretchR"], "focus": "Hip extension, side squats, marching and boxing", "warmupNote": "Hip hinges, shoulder movement and shallow side squats.", "cooldownNote": "Glutes after hip extension and side squats, plus upper back after boxing."},
+ 17: {"warmup": ["easyMarch", "splitSwitch", "wallPush", "weightShift"], "cooldown": ["easyMarch", "chest", "hipFlexorStretchL", "hipFlexorStretchR"], "focus": "Split squats, staggered hinges, pushing and taps", "warmupNote": "Split stance and gentle arm support before unilateral work.", "cooldownNote": "Front of the hips after split squats, plus chest after paused push-ups."},
+ 19: {"warmup": ["easyMarch", "circles", "hinge", "shallowSquat"], "cooldown": ["easyMarch", "chest", "stretchL", "stretchR"], "focus": "Repeat the foundation session", "warmupNote": "The same warm-up as day one keeps the comparison consistent.", "cooldownNote": "The same calf and chest cooldown as day one."},
+ 20: {"warmup": ["sideStep", "knee", "circles", "heelDig"], "cooldown": ["sideStep", "chest", "hipFlexorStretchL", "hipFlexorStretchR"], "focus": "Low kicks, knee lifts, uppercuts and step jacks", "warmupNote": "Low knee lifts and relaxed shoulders before kicks and uppercuts.", "cooldownNote": "Hip flexors after kicks and knee lifts, plus chest after uppercuts."},
+};
 export function included(session,days){return session.kind==='strength'||(session.day%7===2&&Number(days)>=4)||(session.day%7===6&&Number(days)>=5);}
 export function safetyReasons(p){const reasons=[];if(p.age==='under18')reasons.push('This programme is designed for adults.');if(p.pain!=='none')reasons.push('Current pain, injury or an exercise restriction needs individual guidance before we assign this routine.');if(p.floor!=='yes')reasons.push('This programme includes floor exercises. A reviewed standing programme is needed for your floor or balance limitation.');if(p.goal==='test')reasons.push('Military test preparation needs your actual test requirements and a separately calibrated plan.');return reasons;}
 export function variation(id,p,round=0){
@@ -119,7 +153,8 @@ export function buildTimeline(session,profile,baseline=null){
  const p=session.day===19&&baseline?{...profile,level:baseline.level,variations:baseline.variations}:profile;
  const seconds=LEVELS[p.level];if(!seconds)throw new Error('Unknown level');
  const order=session.week===2&&session.kind==='strength'?[0,1,0,1,2,3,2,3,4,5,4,5]:[0,1,2,3,4,5,0,1,2,3,4,5];
- const timeline=WARMUPS[session.warmup].map(id=>({id,kind:'warmup',seconds:30}));
+ const preparation=SESSION_PREPARATION[session.day];
+ const timeline=preparation.warmup.map(id=>({id,kind:'warmup',seconds:30}));
  const seen={};
  order.forEach((station,i)=>{
   const original=session.moves[station];const round=seen[station]??0;seen[station]=round+1;
@@ -127,7 +162,7 @@ export function buildTimeline(session,profile,baseline=null){
   timeline.push({id,original,kind:'work',seconds,station:station+1,interval:i+1,round:round+1});
   if(i<11)timeline.push({kind:'rest',seconds:i===5?60:30,nextId:variation(session.moves[order[i+1]],p,seen[order[i+1]]??0)});
  });
- timeline.push(...COOLDOWNS[session.kind].map(id=>({id,kind:'cooldown',seconds:30})));
+ timeline.push(...preparation.cooldown.map(id=>({id,kind:'cooldown',seconds:30})));
  if(activeSeconds(timeline)>CAP)throw new Error('Active time cap exceeded');
  return timeline;
 }

@@ -461,6 +461,78 @@
       "license": "Apache-2.0",
       "text": "Change sides. Change your front leg now.",
       "new_credits": 0
+    },
+    "hamstringStretchL": {
+      "path": "/media/coaching/hamstringStretchL.mp3",
+      "method": "local Kokoro female voice af_heart",
+      "model": "onnx-community/Kokoro-82M-v1.0-ONNX",
+      "license": "Apache-2.0",
+      "text": "Standing hamstring stretch \u00b7 left. Place your left heel a little forward with toes raised and knee soft. Bend the other knee and hinge gently at the hips, hands resting lightly on the upper thigh. Keep your back long. Hold a mild stretch behind the thigh; do not bounce.",
+      "new_credits": 0
+    },
+    "hamstringStretchR": {
+      "path": "/media/coaching/hamstringStretchR.mp3",
+      "method": "local Kokoro female voice af_heart",
+      "model": "onnx-community/Kokoro-82M-v1.0-ONNX",
+      "license": "Apache-2.0",
+      "text": "Standing hamstring stretch \u00b7 right. Place your right heel a little forward with toes raised and knee soft. Bend the other knee and hinge gently at the hips, hands resting lightly on the upper thigh. Keep your back long. Hold a mild stretch behind the thigh; do not bounce.",
+      "new_credits": 0
+    },
+    "hipFlexorStretchL": {
+      "path": "/media/coaching/hipFlexorStretchL.mp3",
+      "method": "local Kokoro female voice af_heart",
+      "model": "onnx-community/Kokoro-82M-v1.0-ONNX",
+      "license": "Apache-2.0",
+      "text": "Standing hip-flexor stretch \u00b7 left. Put your left foot behind you in a short split stance with the rear heel raised. Use wall support. Keep your trunk upright, gently tuck your pelvis and soften the front knee. Hold a mild stretch at the front of the rear hip without arching your back.",
+      "new_credits": 0
+    },
+    "hipFlexorStretchR": {
+      "path": "/media/coaching/hipFlexorStretchR.mp3",
+      "method": "local Kokoro female voice af_heart",
+      "model": "onnx-community/Kokoro-82M-v1.0-ONNX",
+      "license": "Apache-2.0",
+      "text": "Standing hip-flexor stretch \u00b7 right. Put your right foot behind you in a short split stance with the rear heel raised. Use wall support. Keep your trunk upright, gently tuck your pelvis and soften the front knee. Hold a mild stretch at the front of the rear hip without arching your back.",
+      "new_credits": 0
+    },
+    "quadStretchL": {
+      "path": "/media/coaching/quadStretchL.mp3",
+      "method": "local Kokoro female voice af_heart",
+      "model": "onnx-community/Kokoro-82M-v1.0-ONNX",
+      "license": "Apache-2.0",
+      "text": "Supported thigh stretch \u00b7 left. Hold a wall with one hand. Bend your left knee and gently hold that ankle with the same-side hand. Keep knees close and your trunk upright. Hold a mild stretch at the front of the thigh. If you cannot comfortably reach your ankle, release and rest.",
+      "new_credits": 0
+    },
+    "quadStretchR": {
+      "path": "/media/coaching/quadStretchR.mp3",
+      "method": "local Kokoro female voice af_heart",
+      "model": "onnx-community/Kokoro-82M-v1.0-ONNX",
+      "license": "Apache-2.0",
+      "text": "Supported thigh stretch \u00b7 right. Hold a wall with one hand. Bend your right knee and gently hold that ankle with the same-side hand. Keep knees close and your trunk upright. Hold a mild stretch at the front of the thigh. If you cannot comfortably reach your ankle, release and rest.",
+      "new_credits": 0
+    },
+    "gluteStretchL": {
+      "path": "/media/coaching/gluteStretchL.mp3",
+      "method": "local Kokoro female voice af_heart",
+      "model": "onnx-community/Kokoro-82M-v1.0-ONNX",
+      "license": "Apache-2.0",
+      "text": "Supine knee-to-chest stretch \u00b7 left. Lie on your back with knees bent and both feet grounded. Hold behind your left thigh and gently bring that knee toward your chest. Keep your head and other foot supported. Hold a comfortable stretch around the back of your hip; do not pull hard.",
+      "new_credits": 0
+    },
+    "gluteStretchR": {
+      "path": "/media/coaching/gluteStretchR.mp3",
+      "method": "local Kokoro female voice af_heart",
+      "model": "onnx-community/Kokoro-82M-v1.0-ONNX",
+      "license": "Apache-2.0",
+      "text": "Supine knee-to-chest stretch \u00b7 right. Lie on your back with knees bent and both feet grounded. Hold behind your right thigh and gently bring that knee toward your chest. Keep your head and other foot supported. Hold a comfortable stretch around the back of your hip; do not pull hard.",
+      "new_credits": 0
+    },
+    "upperBackStretch": {
+      "path": "/media/coaching/upperBackStretch.mp3",
+      "method": "local Kokoro female voice af_heart",
+      "model": "onnx-community/Kokoro-82M-v1.0-ONNX",
+      "license": "Apache-2.0",
+      "text": "Gentle upper-back reach. Stand tall with knees soft. Bring your hands together in front at chest height and gently reach forwards. Let your shoulder blades move apart while keeping your neck relaxed. Hold a mild stretch across the upper back without forcing a rounded spine.",
+      "new_credits": 0
     }
   }
 }

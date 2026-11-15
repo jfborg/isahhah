@@ -111,15 +111,29 @@ Prone shoulder exercises are not substitutes for progressively loaded rows or pu
 
 ## Varied warm-ups and cooldowns
 
-Use warm-up A/B/C in rotation across the five weekly sessions (A, B, C, A, B in week 1; B, C, A, B, C in week 2; C, A, B, C, A in week 3). Each contains four 30-second movements.
+Each training session has its own preparation plan matched to the main movements. Both blocks last exactly 120 seconds: four movements of 30 seconds each. Warm-ups use easy dynamic movements and low-effort rehearsals; no long static holds. Cooldowns begin with 30 seconds of gradually slower movement, followed by three mild 30-second stretches. Left/right holds get equal time. Day 19 intentionally repeats day 1 for a consistent comparison.
 
-- A: easy march; shoulder circles/arm swings; small hip hinges; shallow squat or sit-to-stand.
-- B: gentle step-touch; ankle rocks; supported alternating knee lift; shallow supported split-stance knee bends, switching sides after 15 seconds.
-- C: heel digs; gentle arm reaches; small side steps; shallow squats.
+The brief cooldown prioritises selected muscle groups worked that day; it is not a complete whole-body flexibility routine. Repeat useful movement patterns when the session demands them instead of adding novelty for its own sake.
 
-Cooldown A: slowing march 30 sec; supported calf stretch left 30 sec; right 30 sec; relaxed standing breathing and shoulder movement 30 sec.
+| Day / session | Warm-up (30 sec each) | Cooldown and stretches (30 sec each) | Matching rationale |
+| --- | --- | --- | --- |
+| 1 · Foundation | Easy march; Shoulder circles and arm swings; Standing hip hinge; Shallow squat | Easy march; Comfortable chest opening; Supported calf stretch · left; Supported calf stretch · right | Calves after calf raises, plus chest after push-ups. |
+| 2 · March & move | Side step with reach; Ankle rocks; Shoulder circles and arm swings; Alternating knee drive | Heel dig with arm swing; Gentle upper-back reach; Supported calf stretch · left; Supported calf stretch · right | Calves after repeated steps, plus upper back after punching. |
+| 3 · Stability | Heel dig with arm swing; Standing hip hinge; Supported split squat · change halfway; Wall push-up | Easy march; Gentle upper-back reach; Standing hip-flexor stretch · left; Standing hip-flexor stretch · right | Front of the hips after split squats, plus upper back after W raises. |
+| 5 · Full-body control | Easy march; Side step with shallow squat; Wall push-up; Bird dog · one limb at a time | Easy march; Comfortable chest opening; Supine knee-to-chest stretch · left; Supine knee-to-chest stretch · right | Glutes after squats and bridges, plus chest after pushing. |
+| 6 · Coordination | Side step with reach; Gentle arm reaches; Side-to-side toe tap; Alternating knee drive | Heel dig with arm swing; Gentle upper-back reach; Standing hip-flexor stretch · left; Standing hip-flexor stretch · right | Hip flexors after repeated knee lifts, plus upper back after boxing. |
+| 8 · Pause & control | Heel dig with arm swing; Ankle rocks; Wall push-up; Standing hip hinge | Easy march; Comfortable chest opening; Standing hamstring stretch · left; Standing hamstring stretch · right | Hamstrings after bridges and squats, plus chest after push-ups. |
+| 9 · Footwork | Easy march; Ankle rocks; Standing hamstring curl; Heel dig with arm swing | Side step with reach; Gentle upper-back reach; Standing hamstring stretch · left; Standing hamstring stretch · right | Hamstrings after curls and kicks, plus upper back after punching. |
+| 10 · Step-back strength | Side step with reach; Supported split squat · change halfway; Standing hip hinge; Wall push-up | Easy march; Gentle upper-back reach; Supported thigh stretch · left; Supported thigh stretch · right | Quadriceps after lunges, plus upper back after W raises. |
+| 12 · Lateral control | Easy march; Side step with shallow squat; Wall push-up; Kneeling weight shift | Easy march; Gentle upper-back reach; Supine knee-to-chest stretch · left; Supine knee-to-chest stretch · right | Glutes after lateral lunges and bridges, plus upper back after arm sweeps. |
+| 13 · Rhythm | Heel dig with arm swing; Side-to-side toe tap; Shoulder circles and arm swings; Standing hamstring curl | Side step with reach; Comfortable chest opening; Supported thigh stretch · left; Supported thigh stretch · right | Quadriceps after repeated leg work, plus chest after uppercuts and arm reaches. |
+| 15 · Controlled strength | Side step with reach; Shallow squat; Wall push-up; Alternating heel slide | Easy march; Gentle upper-back reach; Standing hamstring stretch · left; Standing hamstring stretch · right | Hamstrings after bridges and squats, plus upper back after W holds. |
+| 16 · Athletic movement | Heel dig with arm swing; Standing hip hinge; Shoulder circles and arm swings; Side step with shallow squat | Heel dig with arm swing; Gentle upper-back reach; Supine knee-to-chest stretch · left; Supine knee-to-chest stretch · right | Glutes after hip extension and side squats, plus upper back after boxing. |
+| 17 · Unilateral control | Easy march; Supported split squat · change halfway; Wall push-up; Kneeling weight shift | Easy march; Comfortable chest opening; Standing hip-flexor stretch · left; Standing hip-flexor stretch · right | Front of the hips after split squats, plus chest after paused push-ups. |
+| 19 · Foundation check-in | Easy march; Shoulder circles and arm swings; Standing hip hinge; Shallow squat | Easy march; Comfortable chest opening; Supported calf stretch · left; Supported calf stretch · right | The same calf and chest cooldown as day one. |
+| 20 · Conditioning mix | Side step with reach; Alternating knee drive; Shoulder circles and arm swings; Heel dig with arm swing | Side step with reach; Comfortable chest opening; Standing hip-flexor stretch · left; Standing hip-flexor stretch · right | Hip flexors after kicks and knee lifts, plus chest after uppercuts. |
 
-Cooldown B: gentle step-touch 30 sec; comfortable standing chest opening 30 sec; calf stretch left 30 sec; right 30 sec. Use A after strength and B after conditioning. Stretches should be mild, not forced.
+General approach: rehearse the coming activity at low intensity, then ease down before gentle static stretches. See [Mayo Clinic: warming up and cooling down](https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/exercise/art-20045517) and [basic stretches](https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/stretching/art-20546848). Those sources commonly describe longer preparation/recovery periods and do not validate this exact two-minute format. Keep the first main interval easy if not yet ready; stop the session if exercise feels unsuitable. No claim is made that stretching prevents soreness or injury.
 
 ## Progression and feedback
 
@@ -138,7 +152,7 @@ These sources support the broad principles, not validation of this exact three-w
 
 ## Expanded movement library
 
-The first release includes 72 animated movement guides. This count includes easier and harder variants, left/right demonstrations, warm-ups and cooldowns; it is not a claim of 72 unrelated exercise types. The three-week schedule uses 50 distinct main-work station IDs, with additional regressions selected through onboarding. Close-stance squat, shallow wall sit and supported single-leg calf raise are additional library options; no extra weeks are generated.
+The first release includes 81 animated movement guides. This count includes easier and harder variants, left/right demonstrations, warm-ups and cooldowns; it is not a claim of 81 unrelated exercise types. The three-week schedule uses 50 distinct main-work station IDs, with additional regressions selected through onboarding. Close-stance squat, shallow wall sit and supported single-leg calf raise are additional library options; no extra weeks are generated.
 
 New low-impact options include standing cross-body knee lift, standing side leg raise, standing hip extension, low controlled front kick, boxer weight shift and diagonal step/reach. Beginners receive appropriate familiar substitutions. Retaining several recurring strength movements allows practice and a meaningful day-1/day-19 comparison. The 15-minute active cap is unchanged.
 

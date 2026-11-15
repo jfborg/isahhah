@@ -9,6 +9,8 @@ modules=[leg_motions,standing_motions]
 if (ROOT/'floor_motions.py').exists():
  import floor_motions
  modules.append(floor_motions)
+import stretch_motions
+modules.append(stretch_motions)
 specs={id:dict(spec) for mod in modules for id,spec in mod.SPECS.items()}
 only=os.environ.get('ONLY_CLIPS')
 if only:specs={k:v for k,v in specs.items() if k in only.split(',')}

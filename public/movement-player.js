@@ -3,12 +3,12 @@ import {GLTFLoader} from './vendor/GLTFLoader.js';
 import {OrbitControls} from './vendor/OrbitControls.js';
 
 let shared;
-const load=()=>shared??=Promise.all([new GLTFLoader().loadAsync('/media/3d/instructor.glb'),fetch('/media/3d/library.json').then(r=>{if(!r.ok)throw Error('Animation library unavailable');return r.json();})]).catch(error=>{shared=null;throw error;});
+const load=()=>shared??=Promise.all([new GLTFLoader().loadAsync('/media/3d/instructor.glb'),fetch('/media/3d/library.json',{cache:'no-cache'}).then(r=>{if(!r.ok)throw Error('Animation library unavailable');return r.json();})]).catch(error=>{shared=null;throw error;});
 let current=null;
 export function stopMovement(){current?.dispose();current=null;}
 export function pauseMovement(paused){current?.setPaused(paused);}
 export function hasMovement(id,media){return Boolean(media.animations?.[id]);}
-export async function showMovement(container,id,{paused=false,controls=true,onError=()=>{}}={}){
+export async function showMovement(container,id,{paused=false,controls=true,playbackRate=1,onError=()=>{}}={}){
  stopMovement();if(!container)return;
  const token={disposed:false};current=token;
  token.dispose=()=>{token.disposed=true;};token.setPaused=p=>{paused=p;};
@@ -57,7 +57,7 @@ export async function showMovement(container,id,{paused=false,controls=true,onEr
   }
   const resize=()=>{const w=container.clientWidth,h=Math.max(240,Math.min(w*.67,560));renderer.setSize(w,h);camera.aspect=w/h;camera.updateProjectionMatrix();};
   const observer=new ResizeObserver(resize);observer.observe(container);resize();
-  const draw=now=>{if(token.disposed)return;const dt=Math.min((now-last)/1000,.08);last=now;if(!paused&&!document.hidden)mixer.update(dt);orbit.update();renderer.render(scene,camera);raf=requestAnimationFrame(draw);};raf=requestAnimationFrame(draw);
+  const draw=now=>{if(token.disposed)return;const dt=Math.min((now-last)/1000,.08);last=now;if(!paused&&!document.hidden)mixer.update(dt*playbackRate);orbit.update();renderer.render(scene,camera);raf=requestAnimationFrame(draw);};raf=requestAnimationFrame(draw);
   token.dispose=()=>{if(token.disposed)return;token.disposed=true;cancelAnimationFrame(raf);observer.disconnect();orbit.dispose();mixer.stopAllAction();mixer.uncacheRoot(model);scene.remove(model);scene.traverse(o=>{if(o.isMesh){o.geometry.dispose();if(Array.isArray(o.material))o.material.forEach(m=>m.dispose());else o.material.dispose();}});renderer.dispose();};
   container.dataset.ready='true';container.dataset.clip=id;
  }catch(error){if(token.disposed)return;container.innerHTML='<p class="media-note">The 3D demonstration could not load. The written movement cues are available below. Try reopening the guide.</p>';onError(error);}

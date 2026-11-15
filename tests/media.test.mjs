@@ -11,7 +11,7 @@ const gltf=JSON.parse(data.subarray(20,20+data.readUInt32LE(12)).toString());
 test('every selectable guide has a real animation and a readable coaching recording',()=>{
  const names=new Set(gltf.animations.map(a=>a.name));
  const ids=Object.keys(EXERCISES).filter(id=>id!=='sideRound');
- assert.equal(ids.length,72);assert.equal(names.size,72);
+ assert.equal(ids.length,81);assert.equal(names.size,81);
  for(const id of ids){
   assert.ok(names.has(id),`Missing GLB clip: ${id}`);assert.ok(library.clips[id]);assert.ok(media.animations[id]);
   assert.equal(typeof media.audio[id],'string');const file=new URL(media.audio[id].slice(1),root);assert.ok(existsSync(file));assert.ok(statSync(file).size>2000);
