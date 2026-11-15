@@ -79,4 +79,6 @@ if not only:
  (OUT/'library.json').write_text(json.dumps({'model':'/media/3d/instructor.glb','clips':specs},indent=2))
  (ROOT/'build').mkdir(exist_ok=True)
  bpy.ops.wm.save_as_mainfile(filepath=str(ROOT/'build/exercise-library.blend'))
+from pack_web import pack
+pack(path)
 print('LIBRARY_READY',len(specs),path.stat().st_size,'bytes',round(time.monotonic()-start,1),'seconds',flush=True)
