@@ -3,7 +3,7 @@ import {GLTFLoader} from './vendor/GLTFLoader.js';
 import {OrbitControls} from './vendor/OrbitControls.js';
 
 let shared;
-const load=()=>shared??=Promise.all([new GLTFLoader().loadAsync('/media/3d/instructor.glb'),fetch('/media/3d/library.json').then(r=>{if(!r.ok)throw Error('Animation library unavailable');return r.json();})]);
+const load=()=>shared??=Promise.all([new GLTFLoader().loadAsync('/media/3d/instructor.glb'),fetch('/media/3d/library.json').then(r=>{if(!r.ok)throw Error('Animation library unavailable');return r.json();})]).catch(error=>{shared=null;throw error;});
 let current=null;
 export function stopMovement(){current?.dispose();current=null;}
 export function pauseMovement(paused){current?.setPaused(paused);}
@@ -19,7 +19,7 @@ export async function showMovement(container,id,{paused=false,controls=true,onEr
   const scene=new THREE.Scene();scene.background=new THREE.Color('#dce1d6');
   const renderer=new THREE.WebGLRenderer({antialias:true,alpha:false,powerPreference:'low-power'});
   renderer.setPixelRatio(Math.min(devicePixelRatio,1.7));renderer.outputColorSpace=THREE.SRGBColorSpace;renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.toneMappingExposure=1.22;
-  renderer.shadowMap.enabled=true;renderer.shadowMap.type=THREE.PCFSoftShadowMap;
+  renderer.shadowMap.enabled=true;renderer.shadowMap.type=THREE.PCFShadowMap;
   renderer.domElement.setAttribute('role','img');renderer.domElement.setAttribute('aria-label','Animated exercise demonstration. Use the camera controls to change the view.');
   container.innerHTML='';container.append(renderer.domElement);
   const camera=new THREE.PerspectiveCamera(33,1,.01,30);
